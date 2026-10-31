@@ -1,0 +1,1574 @@
+{
+ "type": "FeatureCollection",
+ "name": "mariupol_dom_rf_newbuildings",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5121,
+     47.1136
+    ]
+   },
+   "properties": {
+    "objId": 66292,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5172,
+     47.0956
+    ]
+   },
+   "properties": {
+    "objId": 66987,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5218,
+     47.0977
+    ]
+   },
+   "properties": {
+    "objId": 70142,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5253,
+     47.0918
+    ]
+   },
+   "properties": {
+    "objId": 66446,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67336,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5543,
+     47.1062
+    ]
+   },
+   "properties": {
+    "objId": 61271,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5572,
+     47.1091
+    ]
+   },
+   "properties": {
+    "objId": 66541,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5346,
+     47.0982
+    ]
+   },
+   "properties": {
+    "objId": 73579,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6868,
+     47.1266
+    ]
+   },
+   "properties": {
+    "objId": 64116,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5557,
+     47.1065
+    ]
+   },
+   "properties": {
+    "objId": 65980,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67323,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5548,
+     47.1051
+    ]
+   },
+   "properties": {
+    "objId": 68677,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.521,
+     47.0961
+    ]
+   },
+   "properties": {
+    "objId": 70147,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67337,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5551,
+     47.1069
+    ]
+   },
+   "properties": {
+    "objId": 70218,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5196,
+     47.0929
+    ]
+   },
+   "properties": {
+    "objId": 71400,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6359,
+     47.111
+    ]
+   },
+   "properties": {
+    "objId": 68741,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.636,
+     47.1114
+    ]
+   },
+   "properties": {
+    "objId": 68740,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5264,
+     47.0902
+    ]
+   },
+   "properties": {
+    "objId": 59761,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4883,
+     47.0659
+    ]
+   },
+   "properties": {
+    "objId": 71675,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5182,
+     47.0981
+    ]
+   },
+   "properties": {
+    "objId": 71848,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.637,
+     47.1099
+    ]
+   },
+   "properties": {
+    "objId": 73679,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5375,
+     47.0945
+    ]
+   },
+   "properties": {
+    "objId": 62529,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5105,
+     47.1
+    ]
+   },
+   "properties": {
+    "objId": 64407,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5616,
+     47.1115
+    ]
+   },
+   "properties": {
+    "objId": 67649,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.508,
+     47.1187
+    ]
+   },
+   "properties": {
+    "objId": 67994,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5635,
+     47.1113
+    ]
+   },
+   "properties": {
+    "objId": 68872,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5376,
+     47.0938
+    ]
+   },
+   "properties": {
+    "objId": 62521,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.514,
+     47.0924
+    ]
+   },
+   "properties": {
+    "objId": 62961,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5547,
+     47.1051
+    ]
+   },
+   "properties": {
+    "objId": 68602,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5172,
+     47.0976
+    ]
+   },
+   "properties": {
+    "objId": 71850,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5598,
+     47.1076
+    ]
+   },
+   "properties": {
+    "objId": 70022,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5599,
+     47.1086
+    ]
+   },
+   "properties": {
+    "objId": 70024,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6371,
+     47.1115
+    ]
+   },
+   "properties": {
+    "objId": 68739,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.522,
+     47.0944
+    ]
+   },
+   "properties": {
+    "objId": 69749,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5172,
+     47.0954
+    ]
+   },
+   "properties": {
+    "objId": 66986,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6689,
+     47.1005
+    ]
+   },
+   "properties": {
+    "objId": 65532,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.543,
+     47.0974
+    ]
+   },
+   "properties": {
+    "objId": 54271,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5565,
+     47.1105
+    ]
+   },
+   "properties": {
+    "objId": 64601,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5274,
+     47.0908
+    ]
+   },
+   "properties": {
+    "objId": 66197,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5094,
+     47.121
+    ]
+   },
+   "properties": {
+    "objId": 67223,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5177,
+     47.0948
+    ]
+   },
+   "properties": {
+    "objId": 71399,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4885,
+     47.0789
+    ]
+   },
+   "properties": {
+    "objId": 67325,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5414,
+     47.0967
+    ]
+   },
+   "properties": {
+    "objId": 67324,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5093,
+     47.1
+    ]
+   },
+   "properties": {
+    "objId": 62635,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5126,
+     47.0761
+    ]
+   },
+   "properties": {
+    "objId": 54284,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5121,
+     47.1218
+    ]
+   },
+   "properties": {
+    "objId": 72700,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5137,
+     47.0863
+    ]
+   },
+   "properties": {
+    "objId": 66988,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.561,
+     47.1118
+    ]
+   },
+   "properties": {
+    "objId": 68703,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6698,
+     47.1006
+    ]
+   },
+   "properties": {
+    "objId": 66225,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67338,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67339,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.536,
+     47.0981
+    ]
+   },
+   "properties": {
+    "objId": 73578,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5263,
+     47.093
+    ]
+   },
+   "properties": {
+    "objId": 66593,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.51,
+     47.1268
+    ]
+   },
+   "properties": {
+    "objId": 72776,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5208,
+     47.0945
+    ]
+   },
+   "properties": {
+    "objId": 69751,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4848,
+     47.0656
+    ]
+   },
+   "properties": {
+    "objId": 71674,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.523,
+     47.0923
+    ]
+   },
+   "properties": {
+    "objId": 64690,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6901,
+     47.125
+    ]
+   },
+   "properties": {
+    "objId": 66286,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5516,
+     47.1051
+    ]
+   },
+   "properties": {
+    "objId": 59499,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5563,
+     47.1088
+    ]
+   },
+   "properties": {
+    "objId": 69344,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5529,
+     47.1055
+    ]
+   },
+   "properties": {
+    "objId": 55095,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5119,
+     47.1155
+    ]
+   },
+   "properties": {
+    "objId": 66293,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5086,
+     47.1181
+    ]
+   },
+   "properties": {
+    "objId": 67995,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5609,
+     47.1087
+    ]
+   },
+   "properties": {
+    "objId": 70023,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67335,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5219,
+     47.0942
+    ]
+   },
+   "properties": {
+    "objId": 69427,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5111,
+     47.1135
+    ]
+   },
+   "properties": {
+    "objId": 69766,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5266,
+     47.092
+    ]
+   },
+   "properties": {
+    "objId": 66544,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5171,
+     47.0956
+    ]
+   },
+   "properties": {
+    "objId": 66989,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5414,
+     47.0967
+    ]
+   },
+   "properties": {
+    "objId": 67326,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67334,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5296,
+     47.0961
+    ]
+   },
+   "properties": {
+    "objId": 62717,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5179,
+     47.0975
+    ]
+   },
+   "properties": {
+    "objId": 71846,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5273,
+     47.0974
+    ]
+   },
+   "properties": {
+    "objId": 62540,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5423,
+     47.0981
+    ]
+   },
+   "properties": {
+    "objId": 60781,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5268,
+     47.0928
+    ]
+   },
+   "properties": {
+    "objId": 66594,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5066,
+     47.1193
+    ]
+   },
+   "properties": {
+    "objId": 67992,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.513,
+     47.116
+    ]
+   },
+   "properties": {
+    "objId": 66545,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5116,
+     47.1236
+    ]
+   },
+   "properties": {
+    "objId": 72710,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6353,
+     47.1081
+    ]
+   },
+   "properties": {
+    "objId": 73667,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5217,
+     47.0848
+    ]
+   },
+   "properties": {
+    "objId": 61646,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5255,
+     47.09
+    ]
+   },
+   "properties": {
+    "objId": 59762,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5522,
+     47.106
+    ]
+   },
+   "properties": {
+    "objId": 60475,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5282,
+     47.0947
+    ]
+   },
+   "properties": {
+    "objId": 67900,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5074,
+     47.1191
+    ]
+   },
+   "properties": {
+    "objId": 67993,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5188,
+     47.1121
+    ]
+   },
+   "properties": {
+    "objId": 68100,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5086,
+     47.0671
+    ]
+   },
+   "properties": {
+    "objId": 69398,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5237,
+     47.097
+    ]
+   },
+   "properties": {
+    "objId": 65916,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5555,
+     47.1045
+    ]
+   },
+   "properties": {
+    "objId": 68792,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5224,
+     47.0933
+    ]
+   },
+   "properties": {
+    "objId": 65280,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6303,
+     47.1084
+    ]
+   },
+   "properties": {
+    "objId": 65286,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5528,
+     47.1267
+    ]
+   },
+   "properties": {
+    "objId": 69966,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5546,
+     47.1263
+    ]
+   },
+   "properties": {
+    "objId": 69985,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5519,
+     47.1049
+    ]
+   },
+   "properties": {
+    "objId": 58610,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5576,
+     47.11
+    ]
+   },
+   "properties": {
+    "objId": 64571,
+    "objStatus": 2,
+    "statusLabel": "Сданные (completed)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5627,
+     47.1118
+    ]
+   },
+   "properties": {
+    "objId": 67648,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.531,
+     47.0969
+    ]
+   },
+   "properties": {
+    "objId": 62714,
+    "objStatus": 0,
+    "statusLabel": "Строящиеся (under construction)",
+    "minPrice": null
+   }
+  }
+ ]
+}

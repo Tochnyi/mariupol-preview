@@ -1,0 +1,2988 @@
+{
+ "type": "FeatureCollection",
+ "name": "mariupol_dom_rf",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.543,
+     47.0974
+    ]
+   },
+   "properties": {
+    "objId": 54271,
+    "nameObj": "Дом с часами",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, д. 54А",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ РКС-ДЕВЕЛОПМЕНТ",
+    "devInn": "9310007980",
+    "floorMin": 8,
+    "floorMax": 9,
+    "apartments": 122,
+    "livingArea": 5822.71,
+    "completion": "2024-12-23",
+    "avgPrice": 113770,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ACCD6379F18464761AFEF4681055F9158?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300005526",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, переулок Нахимова дом д6",
+    "devDirector": "Лопухов Константин Константинович",
+    "devPhone": "+7 (949) 502-52-52",
+    "devEmail": "mail@rks-nr.ru",
+    "devSite": "ркс-дв.рф/",
+    "rpdNum": "93-000001",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A1122FE5648EC43E19FC1D3F0C090539D",
+    "objClass": "Комфорт",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5126,
+     47.0761
+    ]
+   },
+   "properties": {
+    "objId": 54284,
+    "nameObj": "Дом на Нахимова Жилой дом на Нахимова",
+    "objAddr": "г. Мариуполь, пер Черноморский, д. 1Б",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 5,
+    "floorMax": 5,
+    "apartments": 51,
+    "livingArea": 2324.2,
+    "completion": "2023-12-29",
+    "avgPrice": 115557,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A0B0732E2FB2643D680FB735C8E3BE7DF?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300008870",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, Город Мариуполь, переулок Черноморский дом 1Б помещение 1",
+    "devDirector": "Рассказов Богдан Денисович",
+    "devPhone": "+79632097521",
+    "devEmail": "porfirstv@mail.ru",
+    "devSite": "Наш.дом.рф",
+    "generalContractor": "ООО \"СТРОЙСФЕРА\" (ИНН: 2623031360)",
+    "rpdNum": "93-000002",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ABA2E61FD376D49E0AD260D3A63B8D7C4",
+    "objClass": "Типовой",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5529,
+     47.1055
+    ]
+   },
+   "properties": {
+    "objId": 55095,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 13",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 12,
+    "floorMax": 13,
+    "apartments": 108,
+    "livingArea": 5995.53,
+    "completion": "2024-06-28",
+    "avgPrice": 133295,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A672853CF31184B47A055587C9D0DA9A7?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300007000",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Металлургов дом 87А помещение 7",
+    "devDirector": "Переходов Сергей Иванович",
+    "devPhone": "+78612059099",
+    "devEmail": "szsu2007@v-k-b.ru",
+    "devSite": "жк-ленинградский-квартал.рф",
+    "rpdNum": "93-000003",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A13B9D321E1C045ECB271B10A1CFA49E2",
+    "objClass": "Типовой",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5519,
+     47.1049
+    ]
+   },
+   "properties": {
+    "objId": 58610,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 14",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 12,
+    "floorMax": 13,
+    "apartments": 96,
+    "livingArea": 6025.16,
+    "completion": "2024-12-26",
+    "avgPrice": 146000,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AD2DD737019C846DD9051C074B9025D4C?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300007000",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Металлургов дом 87А помещение 7",
+    "devDirector": "Переходов Сергей Иванович",
+    "devPhone": "+78612059099",
+    "devEmail": "szsu2007@v-k-b.ru",
+    "devSite": "жк-ленинградский-квартал.рф",
+    "rpdNum": "93-000004",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A7473325CB15A4AD091A1CE70E18076A6",
+    "objClass": "Типовой",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5516,
+     47.1051
+    ]
+   },
+   "properties": {
+    "objId": 59499,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 25",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 15,
+    "floorMax": 16,
+    "apartments": 196,
+    "livingArea": 12051.34,
+    "completion": "2024-12-26",
+    "avgPrice": 112998,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A7755A46AA84747EB8D4E696ACB0901F5?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300007000",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Металлургов дом 87А помещение 7",
+    "devDirector": "Переходов Сергей Иванович",
+    "devPhone": "+78612059099",
+    "devEmail": "szsu2007@v-k-b.ru",
+    "devSite": "жк-ленинградский-квартал.рф",
+    "rpdNum": "93-000005",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A1E5762108E6D4EF8A702E90CC02219A9",
+    "objClass": "Типовой",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5264,
+     47.0902
+    ]
+   },
+   "properties": {
+    "objId": 59761,
+    "nameObj": "Жилой дом на Хмельницкого 6А",
+    "objAddr": "г. Мариуполь, б-р Богдана Хмельницкого, д. 6, корпус А",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 9,
+    "floorMax": 9,
+    "apartments": 84,
+    "livingArea": 3998.18,
+    "completion": "2024-11-11",
+    "avgPrice": 126267,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AC876B700884048559624A30C0F6136C9?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300008870",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, Город Мариуполь, переулок Черноморский дом 1Б помещение 1",
+    "devDirector": "Рассказов Богдан Денисович",
+    "devPhone": "+79632097521",
+    "devEmail": "porfirstv@mail.ru",
+    "devSite": "Наш.дом.рф",
+    "generalContractor": "ООО \"СТРОЙСФЕРА\" (ИНН: 2623031360)",
+    "rpdNum": "93-000006",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A3DF010696D434DE1BF8FB8B7F40A820B",
+    "objClass": "Комфорт",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5255,
+     47.09
+    ]
+   },
+   "properties": {
+    "objId": 59762,
+    "nameObj": "Жилой дом на Хмельницкого 8А",
+    "objAddr": "г. Мариуполь, б-р Богдана Хмельницкого, д. 8А",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 9,
+    "floorMax": 9,
+    "apartments": 42,
+    "livingArea": 2676.77,
+    "completion": "2024-11-08",
+    "avgPrice": 130493,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AC3272389AE35425BA8B67DEBB8019104?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300008870",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, Город Мариуполь, переулок Черноморский дом 1Б помещение 1",
+    "devDirector": "Рассказов Богдан Денисович",
+    "devPhone": "+79632097521",
+    "devEmail": "porfirstv@mail.ru",
+    "devSite": "Наш.дом.рф",
+    "generalContractor": "ООО \"Сапфир\" (ИНН: 6950107472)",
+    "rpdNum": "93-000007",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ADDAD4E64CEFF4A0BA9CE0C5E98A63E07",
+    "objClass": "Комфорт",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5522,
+     47.106
+    ]
+   },
+   "properties": {
+    "objId": 60475,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 17",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 15,
+    "floorMax": 16,
+    "apartments": 246,
+    "livingArea": 15679.02,
+    "completion": "2025-11-07",
+    "avgPrice": 118593,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AFF8E45DDDD894FD8B21361CBEF40BEA1?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300007000",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Металлургов дом 87А помещение 7",
+    "devDirector": "Переходов Сергей Иванович",
+    "devPhone": "+78612059099",
+    "devEmail": "szsu2007@v-k-b.ru",
+    "devSite": "жк-ленинградский-квартал.рф",
+    "rpdNum": "93-000008",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A070E45AA7F074A00A6F6FC1239E96B69",
+    "objClass": "Типовой",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5423,
+     47.0981
+    ]
+   },
+   "properties": {
+    "objId": 60781,
+    "nameObj": "ЖК «Дом с часами» Корпус 2",
+    "objAddr": "г. Мариуполь, пр-кт Ленина, д. 77Б",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ НР-ДЕВЕЛОПМЕНТ",
+    "devInn": "9309027389",
+    "floorMin": 8,
+    "floorMax": 9,
+    "apartments": 112,
+    "livingArea": 5465.36,
+    "completion": "2026-03-26",
+    "avgPrice": 145000,
+    "hasDetail": true,
+    "devOgrn": "1249300008451",
+    "devKpp": "930901001",
+    "devLegalAddr": "Донецкая Народная Республика, город Донецк, улица Молодых Шахтёров дом д 37",
+    "devDirector": "Константинов Александр Александрович",
+    "devPhone": "+79495995394",
+    "devEmail": "nr-dev@mail.ru",
+    "devSite": "www.наш.дом.рф",
+    "rpdNum": "93-000009",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AD64B8DE5ED4648599F309B92B5AF94E9",
+    "objClass": "Типовой",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5543,
+     47.1062
+    ]
+   },
+   "properties": {
+    "objId": 61271,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 15",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 12,
+    "floorMax": 13,
+    "apartments": 224,
+    "livingArea": 11873.71,
+    "completion": "2025-09-26",
+    "avgPrice": 149721,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A3910787EC7814FB285538D9ACEAD5420?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300007000",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Металлургов дом 87А помещение 7",
+    "devDirector": "Переходов Сергей Иванович",
+    "devPhone": "+78612059099",
+    "devEmail": "szsu2007@v-k-b.ru",
+    "devSite": "жк-ленинградский-квартал.рф",
+    "rpdNum": "93-000010",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A02218BF3289F4A3B93509FD116A58DDD",
+    "objClass": "Типовой",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5217,
+     47.0848
+    ]
+   },
+   "properties": {
+    "objId": 61646,
+    "nameObj": "Жилой дом на Нахимова 134а",
+    "objAddr": "г. Мариуполь, пр-кт Нахимова, д. 134а",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 9,
+    "floorMax": 9,
+    "apartments": 110,
+    "livingArea": 5587.3,
+    "completion": "2024-12-20",
+    "avgPrice": 142605,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AA7188FA53A584C4A9C02EF42796C04A5?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300008870",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, Город Мариуполь, переулок Черноморский дом 1Б помещение 1",
+    "devDirector": "Рассказов Богдан Денисович",
+    "devPhone": "+79632097521",
+    "devEmail": "porfirstv@mail.ru",
+    "devSite": "Наш.дом.рф",
+    "generalContractor": "ООО \"Сапфир\" (ИНН: 6950107472)",
+    "rpdNum": "93-000011",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A0FF3FBAFB31246249F200BC64EA13E54",
+    "objClass": "Комфорт",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5376,
+     47.0938
+    ]
+   },
+   "properties": {
+    "objId": 62521,
+    "nameObj": "Жилой дом на ул. Апатова 121А",
+    "objAddr": "г. Мариуполь, ул Апатова, д. 121, литера А",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ ТЕМП",
+    "devInn": "9310011351",
+    "floorMin": 9,
+    "floorMax": 9,
+    "apartments": 48,
+    "livingArea": 2874.72,
+    "completion": "2025-12-29",
+    "avgPrice": 167061,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A6DDD07D68A9C4097B2A7D74EB93C929D?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300017197",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, улица Энгельса дом д56",
+    "devDirector": "Мордовкин Игорь Анатольевич",
+    "devPhone": "+79498635005",
+    "devEmail": "info@temp-mariupol.ru",
+    "devSite": "mars-development.ru",
+    "generalContractor": "ООО МОДУЛЬ-Центр (ИНН: 7811407671)",
+    "rpdNum": "93-000012",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A911D2D4C2E204DEC86A316914F923E06",
+    "objClass": "Комфорт",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5375,
+     47.0945
+    ]
+   },
+   "properties": {
+    "objId": 62529,
+    "objAddr": "г. Мариуполь, Пр-кт Нахимова, д. 101, литера Б",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ ТЕМП",
+    "devInn": "9310011351",
+    "floorMin": 9,
+    "floorMax": 9,
+    "apartments": 70,
+    "livingArea": 3424.27,
+    "completion": "2025-12-29",
+    "avgPrice": 151863,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A6DC2FD41F5FB4AAB818104623FE7D610?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300017197",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, улица Энгельса дом д56",
+    "devDirector": "Мордовкин Игорь Анатольевич",
+    "devPhone": "+79498635005",
+    "devEmail": "info@temp-mariupol.ru",
+    "devSite": "mars-development.ru",
+    "generalContractor": "ООО \"МОДУЛЬ-Центр\" (ИНН: 7811407671)",
+    "rpdNum": "93-000013",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A1A76EEE0D7234942AEE979CCB44182DF",
+    "objClass": "Комфорт",
+    "wallMaterial": "Другое",
+    "parkingCnt": 18,
+    "passengerElevators": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5273,
+     47.0974
+    ]
+   },
+   "properties": {
+    "objId": 62540,
+    "objAddr": "г. Мариуполь, пр-кт Ленина, д. 96, литера А",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ТЕМП",
+    "devInn": "9310011351",
+    "floorMin": 16,
+    "floorMax": 16,
+    "apartments": 101,
+    "livingArea": 5532.68,
+    "completion": "2027-06-30",
+    "avgPrice": 194157,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AF75598439DA34916BDB42369E097B36C?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300017197",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, улица Энгельса дом д56",
+    "devDirector": "Мордовкин Игорь Анатольевич",
+    "devPhone": "+79498635005",
+    "devEmail": "info@temp-mariupol.ru",
+    "devSite": "mars-development.ru",
+    "generalContractor": "ООО \"МОДУЛЬ-Центр\" (ИНН: 7811407671)",
+    "rpdNum": "93-000014",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A054D2CE5C1FB4683893C520D900E139C",
+    "objClass": "Бизнес",
+    "wallMaterial": "Другое",
+    "parkingCnt": 30,
+    "passengerElevators": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5093,
+     47.1
+    ]
+   },
+   "properties": {
+    "objId": 62635,
+    "nameObj": "ЖК \"Мираполис\"",
+    "objAddr": "г. Мариуполь, пр-кт Ленина, д. 129, литера А",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ МИРАСТРОЙ 2",
+    "devInn": "9303036549",
+    "floorMin": 12,
+    "floorMax": 17,
+    "apartments": 130,
+    "livingArea": 6585.45,
+    "completion": "2027-03-31",
+    "avgPrice": 160813,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A558C927AE4E34F4686357E5394967CCB?type=png",
+    "hasDetail": true,
+    "devOgrn": "1249300004887",
+    "devKpp": "930301001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, улица Энгельса дом д 26/2",
+    "devDirector": "Василенко Игорь Игоревич",
+    "devPhone": "+79686811019",
+    "devEmail": "info@mira-polis.com",
+    "devSite": "mira-polis.com",
+    "generalContractor": "ООО СТРОИТЕЛЬНАЯ КОМПАНИЯ АРХОНТ (ИНН: 9729326504)",
+    "rpdNum": "93-000015",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A1148C2173FC04749B8B6BC4781E2C9C8",
+    "objClass": "Комфорт",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.531,
+     47.0969
+    ]
+   },
+   "properties": {
+    "objId": 62714,
+    "objAddr": "г. Мариуполь, пр-кт Ленина, д. 86, литера А",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ТЕМП-80",
+    "devInn": "9310011376",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 257,
+    "livingArea": 11308.7,
+    "completion": "2026-12-31",
+    "avgPrice": 183968,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A059A0ADC044B41DCA08CA0EC0FFF2C7B?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300017230",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, улица Энгельса дом д56",
+    "devDirector": "Мордовкин Игорь Анатольевич",
+    "devPhone": "+79117899386",
+    "devEmail": "info@temp-mariupol.ru",
+    "devSite": "mars-development.ru",
+    "generalContractor": "ООО \"Модуль-Центр\" (ИНН: 7811407671)",
+    "rpdNum": "93-000016",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ABEB85800985B4BEAB1E2BD2367069272",
+    "objClass": "Комфорт",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5296,
+     47.0961
+    ]
+   },
+   "properties": {
+    "objId": 62717,
+    "objAddr": "г. Мариуполь, б-р Богдана Хмельницкого, д. 33б",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ТЕМП-80",
+    "devInn": "9310011376",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 195,
+    "livingArea": 8252.4,
+    "completion": "2026-12-31",
+    "avgPrice": 190920,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A8D4D938470DE449B8899B9DE125654EA?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300017230",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, улица Энгельса дом д56",
+    "devDirector": "Мордовкин Игорь Анатольевич",
+    "devPhone": "+79117899386",
+    "devEmail": "info@temp-mariupol.ru",
+    "devSite": "mars-development.ru",
+    "generalContractor": "ООО \"Модуль-Центр\" (ИНН: 7811407671)",
+    "rpdNum": "93-000017",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AF97E595C786C437992460F1430740324",
+    "objClass": "Комфорт",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.514,
+     47.0924
+    ]
+   },
+   "properties": {
+    "objId": 62961,
+    "nameObj": "Жилой комплекс \"ОНИКС\"",
+    "objAddr": "г. Мариуполь, ул Бахчиванджи",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ ТЮС-НР2",
+    "devInn": "9309026515",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 64,
+    "livingArea": 3283.12,
+    "completion": "2026-03-02",
+    "avgPrice": 201470,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A5AB6CBC1E3C84185BF3F957E2C95CA09?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300015338",
+    "devKpp": "930901001",
+    "devLegalAddr": "Донецкая Народная Республика, город Донецк, улица Университетская дом 80А",
+    "devDirector": "Шарипов Ленар Рашидович",
+    "devPhone": "+78435283131",
+    "devEmail": "tus-nr@tus.ru",
+    "devSite": "www.наш.дом.рф",
+    "generalContractor": "ФЮЛ \"Строительная Компания \"СтройМаш\" филиал ДНР (ИНН: 1659147487)",
+    "rpdNum": "93-000018",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AF5FC96E2FA51481E9702541E348126ED",
+    "objClass": "Комфорт",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6868,
+     47.1266
+    ]
+   },
+   "properties": {
+    "objId": 64116,
+    "nameObj": "ЖК \"Олимпийский\"",
+    "objAddr": "г. Мариуполь, ул Киевская, д. 59Б",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ РСК",
+    "devInn": "9309026106",
+    "floorMin": 12,
+    "floorMax": 13,
+    "apartments": 81,
+    "livingArea": 3717.59,
+    "completion": "2026-06-05",
+    "avgPrice": 161099,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ACD22904291314A2D96B48A4B1EFAAC22?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300010861",
+    "devKpp": "930901001",
+    "devLegalAddr": "Донецкая Народная Республика, город Донецк, проспект Киевский дом д 23",
+    "devDirector": "Лазаренко Иван Георгиевич",
+    "devPhone": "+79495057878",
+    "devEmail": "rsk-2024@mail.ru",
+    "devSite": "rskdnr.ru/",
+    "generalContractor": "ООО РЕЛЕКТ (ИНН: 6167107369)",
+    "rpdNum": "93-000021",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AFB8EE82BBC0C43AC8A2DDCE34552EFCA",
+    "objClass": "Комфорт",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5105,
+     47.1
+    ]
+   },
+   "properties": {
+    "objId": 64407,
+    "nameObj": "ЖК \"Мираполис\"",
+    "objAddr": "г. Мариуполь, пр-кт Ленина, д. 127, литера Б",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ МИРАСТРОЙ",
+    "devInn": "9303034407",
+    "floorMin": 9,
+    "floorMax": 13,
+    "apartments": 159,
+    "livingArea": 7988.14,
+    "completion": "2027-12-31",
+    "avgPrice": 210987,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AE9D22A53F66249E2B0C3B979D2FCABB8?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300010840",
+    "devKpp": "930301001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, улица Энгельса дом д 26/2",
+    "devDirector": "Пичкур Антон Анатольевич",
+    "devPhone": "+79686811019",
+    "devEmail": "info@mira-polis.com",
+    "devSite": "www.наш.дом.рф",
+    "generalContractor": "ООО ПРИМСТРОЙ (ИНН: 2511134872), ООО СТРОИТЕЛЬНАЯ КОМПАНИЯ АРХОНТ (ИНН: 9729326504)",
+    "rpdNum": "93-000023",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A271C56A2F5F64FE989973F09C2EC832A",
+    "objClass": "Комфорт",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5576,
+     47.11
+    ]
+   },
+   "properties": {
+    "objId": 64571,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 9",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 190,
+    "livingArea": 8584.52,
+    "completion": "2025-09-26",
+    "avgPrice": 129007,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ABB20C6560F01435BB90033EB7EF88FB0?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300007000",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Металлургов дом 87А помещение 7",
+    "devDirector": "Переходов Сергей Иванович",
+    "devPhone": "+78612059099",
+    "devEmail": "szsu2007@v-k-b.ru",
+    "devSite": "жк-ленинградский-квартал.рф",
+    "generalContractor": "ООО \"Строительное управление-2007\" (ИНН: 2310130490)",
+    "rpdNum": "93-000024",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A05C1BC56CC4744A7879384320F5D92AF",
+    "objClass": "Типовой",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5565,
+     47.1105
+    ]
+   },
+   "properties": {
+    "objId": 64601,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 10",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 118,
+    "livingArea": 5397.36,
+    "completion": "2025-11-07",
+    "avgPrice": 153150,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AE6A1C32939F745D18ABF4656D28AE1B3?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300007000",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Металлургов дом 87А помещение 7",
+    "devDirector": "Переходов Сергей Иванович",
+    "devPhone": "+78612059099",
+    "devEmail": "szsu2007@v-k-b.ru",
+    "devSite": "жк-ленинградский-квартал.рф",
+    "generalContractor": "ООО \"Строительное управление-2007\" (ИНН: 2310130490)",
+    "rpdNum": "93-000025",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A848A4DBB75B84BCD8C02C80D7E6BD7B7",
+    "objClass": "Типовой",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.523,
+     47.0923
+    ]
+   },
+   "properties": {
+    "objId": 64690,
+    "nameObj": "Резиденция",
+    "objAddr": "г. Мариуполь, пр-кт Строителей",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 15,
+    "apartments": 237,
+    "livingArea": 12829.3,
+    "completion": "2025-11-27",
+    "avgPrice": 142078,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A98463B444861432197755E817C928759?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300008870",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, Город Мариуполь, переулок Черноморский дом 1Б помещение 1",
+    "devDirector": "Рассказов Богдан Денисович",
+    "devPhone": "+79632097521",
+    "devEmail": "porfirstv@mail.ru",
+    "devSite": "Наш.дом.рф",
+    "generalContractor": "ООО \"Сапфир\" (ИНН: 6950107472)",
+    "rpdNum": "93-000026",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A2515389A0B6143569D27FC981A932216",
+    "objClass": "Комфорт",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5224,
+     47.0933
+    ]
+   },
+   "properties": {
+    "objId": 65280,
+    "nameObj": "Резиденция II",
+    "objAddr": "г. Мариуполь, пр-кт Строителей, д. 70Б",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 152,
+    "livingArea": 7538.6,
+    "completion": "2025-11-27",
+    "avgPrice": 155497,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ABF547E8A85064C658B6A1ECAB1B7CF75?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300008870",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, Город Мариуполь, переулок Черноморский дом 1Б помещение 1",
+    "devDirector": "Рассказов Богдан Денисович",
+    "devPhone": "+79632097521",
+    "devEmail": "porfirstv@mail.ru",
+    "devSite": "Наш.дом.рф",
+    "generalContractor": "ООО \"ДоброСтрой\" (ИНН: 6140015128)",
+    "rpdNum": "93-000030",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A11FBDCBEF13645B5917714674306178A",
+    "objClass": "Комфорт",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6303,
+     47.1084
+    ]
+   },
+   "properties": {
+    "objId": 65286,
+    "nameObj": "Авторский дом \"Мари\"",
+    "objAddr": "г. Мариуполь, ул Миклухо-Маклая",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ЭВОДОМ-5",
+    "devInn": "9303038232",
+    "floorMin": 8,
+    "floorMax": 8,
+    "apartments": 78,
+    "livingArea": 3065.32,
+    "completion": "2026-12-31",
+    "avgPrice": 216877,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AEE001E19AC5A4981AA44DC63609B2E74?type=png",
+    "hasDetail": true,
+    "devOgrn": "1249300014105",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Маршала Жукова дом д 94А",
+    "devDirector": "Мартынова Наталья Ивановна",
+    "devPhone": "+79225303131",
+    "devEmail": "office@evoinfo.ru",
+    "devSite": "evoinfo.ru/",
+    "rpdNum": "93-000031",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A17674CB367774EE487BE21290F9D4723",
+    "objClass": "Бизнес",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 25,
+    "passengerElevators": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6689,
+     47.1005
+    ]
+   },
+   "properties": {
+    "objId": 65532,
+    "nameObj": "ЖК Левобережный",
+    "objAddr": "г. Мариуполь, пр-кт Тульский, д. 158, литера Е",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ВЕРТИКАЛЬ НР-1",
+    "devInn": "9310014722",
+    "floorMin": 10,
+    "floorMax": 13,
+    "apartments": 141,
+    "livingArea": 7736.48,
+    "completion": "2026-12-31",
+    "avgPrice": 160600,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AFA48C52011904108B47CA2E630D5928D?type=png",
+    "hasDetail": true,
+    "devOgrn": "1249300011795",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Победы дом д 51/32 помещение помещ 58",
+    "devDirector": "Галичев Александр Григорьевич",
+    "devPhone": "+79282299104",
+    "devEmail": "sale@szvertikal-nr.ru",
+    "devSite": "жк-левобережный.рф/",
+    "generalContractor": "ООО СНАБЮГ (ИНН: 6168123370)",
+    "rpdNum": "93-000032",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A4AD9313C77984641A246B92A1303C202",
+    "objClass": "Комфорт",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5237,
+     47.097
+    ]
+   },
+   "properties": {
+    "objId": 65916,
+    "nameObj": "Жилой комплекс \"АМЕТИСТ\"",
+    "objAddr": "г. Мариуполь, пр-кт Строителей",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ТЮС-НР1",
+    "devInn": "9309026508",
+    "floorMin": 6,
+    "floorMax": 6,
+    "apartments": 60,
+    "livingArea": 2315.0,
+    "completion": "2026-12-31",
+    "avgPrice": 193796,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AF3DDCB6B83D84F5E857A513FD3DCBBE9?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300015327",
+    "devKpp": "930901001",
+    "devLegalAddr": "Донецкая Народная Республика, город Донецк, улица Университетская дом 80А",
+    "devDirector": "Шарипов Ленар Рашидович",
+    "devPhone": "+78435283131",
+    "devEmail": "tus-nr@tus.ru",
+    "devSite": "www.наш.дом.рф",
+    "generalContractor": "ФЮЛ \"Строительная Компания \"СтройМаш\" филиал ДНР (ИНН: 1659147487)",
+    "rpdNum": "93-000034",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A183012F1CED04414B557C5FDCA5D5831",
+    "objClass": "Типовой",
+    "wallMaterial": "Монолит-кирпич",
+    "parkingCnt": 0,
+    "passengerElevators": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5557,
+     47.1065
+    ]
+   },
+   "properties": {
+    "objId": 65980,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, литера 12",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 14,
+    "floorMax": 14,
+    "apartments": 125,
+    "livingArea": 6921.05,
+    "completion": "2025-12-29",
+    "avgPrice": 149507,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A4963349243AD4CDE9AC586E045CD7EA9?type=png",
+    "hasDetail": true,
+    "devOgrn": "1239300007000",
+    "devKpp": "931001001",
+    "devLegalAddr": "Донецкая Народная Республика, город Мариуполь, проспект Металлургов дом 87А помещение 7",
+    "devDirector": "Переходов Сергей Иванович",
+    "devPhone": "+78612059099",
+    "devEmail": "szsu2007@v-k-b.ru",
+    "devSite": "жк-ленинградский-квартал.рф",
+    "generalContractor": "ООО \"Строительное управление-2007\" (ИНН: 2310130490)",
+    "rpdNum": "93-000037",
+    "rpdPdfLink": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A8B9280D981C84F9E9367017DAD8A447C",
+    "objClass": "Типовой",
+    "wallMaterial": "Другое",
+    "parkingCnt": 0,
+    "passengerElevators": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5274,
+     47.0908
+    ]
+   },
+   "properties": {
+    "objId": 66197,
+    "nameObj": "Жилой комплекс \"АГАТ\"",
+    "objAddr": "г. Мариуполь, пл Бахчиванджи, д. 2, литера А",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ ТЮС-НР1",
+    "devInn": "9309026508",
+    "floorMin": 16,
+    "floorMax": 16,
+    "apartments": 113,
+    "livingArea": 5780.8,
+    "completion": "2026-04-28",
+    "avgPrice": 204394,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A045D7118EAE341518B8E396CA721D096?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6698,
+     47.1006
+    ]
+   },
+   "properties": {
+    "objId": 66225,
+    "objAddr": "г. Мариуполь, пр-кт Тульский, д. 158, литера Д",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ВЕРТИКАЛЬ НР-1",
+    "devInn": "9310014722",
+    "floorMin": 13,
+    "floorMax": 16,
+    "apartments": 175,
+    "livingArea": 9472.68,
+    "completion": "2026-12-31",
+    "avgPrice": 139433,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A02F215B14CB24125B8E41625B7D1BF71?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6901,
+     47.125
+    ]
+   },
+   "properties": {
+    "objId": 66286,
+    "nameObj": "ЖК \"Жукова\"",
+    "objAddr": "г. Мариуполь, пр-кт Маршала Жукова, д. 90Б",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ РСК",
+    "devInn": "9309026106",
+    "floorMin": 12,
+    "floorMax": 13,
+    "apartments": 249,
+    "livingArea": 11066.95,
+    "completion": "2026-12-31",
+    "avgPrice": 176376,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AA93FA5B999F5470D87910ED95F342209?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5121,
+     47.1136
+    ]
+   },
+   "properties": {
+    "objId": 66292,
+    "nameObj": "ЖК \"Лазурные берега\"",
+    "objAddr": "г. Мариуполь, ул Куприна",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СИРИУС БИЛД",
+    "devInn": "9310014320",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 86,
+    "livingArea": 3605.6,
+    "completion": "2026-12-31",
+    "avgPrice": 163689,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AF4904A0C3F1E427B8E88086E56997D1A?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5119,
+     47.1155
+    ]
+   },
+   "properties": {
+    "objId": 66293,
+    "objAddr": "г. Мариуполь, ул Куприна, д. 77Б",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ОЛИМПСТРОЙ НР",
+    "devInn": "9309027678",
+    "floorMin": 17,
+    "floorMax": 17,
+    "apartments": 144,
+    "livingArea": 6136.82,
+    "completion": "2026-12-31",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AF834C6C868004287B1723B7DC8037100?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5253,
+     47.0918
+    ]
+   },
+   "properties": {
+    "objId": 66446,
+    "nameObj": "Резиденция III",
+    "objAddr": "г. Мариуполь, ул Бахчиванджи",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 136,
+    "livingArea": 6455.7,
+    "completion": "2025-11-27",
+    "avgPrice": 166290,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A955391D523B94C099886DBBFC6ED22B9?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5572,
+     47.1091
+    ]
+   },
+   "properties": {
+    "objId": 66541,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 24",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 190,
+    "livingArea": 8584.52,
+    "completion": "2025-12-29",
+    "avgPrice": 173563,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A858B1993BF2741D9AAB862553A120564?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5266,
+     47.092
+    ]
+   },
+   "properties": {
+    "objId": 66544,
+    "nameObj": "Дом со вкусом АУРА 1",
+    "objAddr": "г. Мариуполь, б-р Богдана Хмельницкого",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 192,
+    "livingArea": 8304.9,
+    "completion": "2026-04-09",
+    "avgPrice": 171366,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A58BDA94DAA96488CB4B34FBE6F50244A?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.513,
+     47.116
+    ]
+   },
+   "properties": {
+    "objId": 66545,
+    "objAddr": "г. Мариуполь, б-р Шевченко, д. 276а",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ОЛИМПСТРОЙ НР",
+    "devInn": "9309027678",
+    "floorMin": 17,
+    "floorMax": 17,
+    "apartments": 135,
+    "livingArea": 5799.0,
+    "completion": "2026-12-31",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A0A13DAAE098C4605BD26E7A01D63FC81?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5263,
+     47.093
+    ]
+   },
+   "properties": {
+    "objId": 66593,
+    "nameObj": "Дом со вкусом АУРА 3",
+    "objAddr": "г. Мариуполь, ул Богдана Хмельницкого",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 224,
+    "livingArea": 9426.4,
+    "completion": "2026-05-20",
+    "avgPrice": 176147,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A1F9D0D028AF04FDCBEF8CB8A86A3649B?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5268,
+     47.0928
+    ]
+   },
+   "properties": {
+    "objId": 66594,
+    "nameObj": "Дом со вкусом АУРА 2",
+    "objAddr": "г. Мариуполь, б-р Богдана Хмельницкого",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 208,
+    "livingArea": 8773.7,
+    "completion": "2026-05-20",
+    "avgPrice": 173952,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AC5CC5671E0DE4628B81FB19045C2DFDB?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5172,
+     47.0954
+    ]
+   },
+   "properties": {
+    "objId": 66986,
+    "nameObj": "ЖК \"Нахимовский\"",
+    "objAddr": "г. Мариуполь, ул Зелинского",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ КОРПОРАЦИЯ СМУ-5",
+    "devInn": "9310017508",
+    "floorMin": 15,
+    "floorMax": 15,
+    "apartments": 117,
+    "livingArea": 4907.15,
+    "completion": "2027-03-31",
+    "avgPrice": 235500,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A2C3CFC339E7449B79932ACA003359CEF?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5172,
+     47.0956
+    ]
+   },
+   "properties": {
+    "objId": 66987,
+    "nameObj": "ЖК \"Нахимовский\"",
+    "objAddr": "г. Мариуполь, ул Зелинского",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ КОРПОРАЦИЯ СМУ-5",
+    "devInn": "9310017508",
+    "floorMin": 10,
+    "floorMax": 14,
+    "apartments": 201,
+    "livingArea": 8942.09,
+    "completion": "2027-03-31",
+    "avgPrice": 142590,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A00F85B3F742049C9A14D2BBDA9401F70?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5137,
+     47.0863
+    ]
+   },
+   "properties": {
+    "objId": 66988,
+    "nameObj": "ЖК \"Нахимовский\"",
+    "objAddr": "г. Мариуполь, ул Зелинского",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ КОРПОРАЦИЯ СМУ-5",
+    "devInn": "9310017508",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 98,
+    "livingArea": 4015.01,
+    "completion": "2027-03-31",
+    "avgPrice": 207375,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A52E7D123D8DA48B98E4EAD9748B1385F?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5171,
+     47.0956
+    ]
+   },
+   "properties": {
+    "objId": 66989,
+    "nameObj": "ЖК \"Нахимовский\"",
+    "objAddr": "г. Мариуполь, ул Зелинского",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ КОРПОРАЦИЯ СМУ-5",
+    "devInn": "9310017508",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 98,
+    "livingArea": 4015.01,
+    "completion": "2027-03-31",
+    "avgPrice": 166928,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A536517DF60DE401CA9EFD3C16A76CCC6?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5094,
+     47.121
+    ]
+   },
+   "properties": {
+    "objId": 67223,
+    "nameObj": "ЖК \"Кленовая Аллея\", зона 5",
+    "objAddr": "г. Мариуполь, ул Солнечная",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СОЛНЕЧНАЯ",
+    "devInn": "9311026992",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 182,
+    "livingArea": 8693.04,
+    "completion": "2026-12-31",
+    "avgPrice": 136570,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AF3BF9629F60D483AB9964A04D34088D4?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67323,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 2,
+    "apartments": 6,
+    "livingArea": 554.94,
+    "completion": "2027-06-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A5F8D16237DD4412889BC88455BED3FB8?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5414,
+     47.0967
+    ]
+   },
+   "properties": {
+    "objId": 67324,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 2,
+    "apartments": 7,
+    "livingArea": 647.43,
+    "completion": "2027-06-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AE46ABDDFB3734EF8B691FE2D7BF7700C?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4885,
+     47.0789
+    ]
+   },
+   "properties": {
+    "objId": 67325,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 2,
+    "apartments": 6,
+    "livingArea": 554.94,
+    "completion": "2027-06-30",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5414,
+     47.0967
+    ]
+   },
+   "properties": {
+    "objId": 67326,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 2,
+    "apartments": 7,
+    "livingArea": 647.43,
+    "completion": "2027-06-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A87491B256D3C465888911696C930712C?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67334,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 3,
+    "apartments": 5,
+    "livingArea": 775.49,
+    "completion": "2026-09-30",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67335,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 3,
+    "apartments": 5,
+    "livingArea": 775.49,
+    "completion": "2026-09-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A9447310E73C04D938321651295603F69?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67336,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 2,
+    "apartments": 6,
+    "livingArea": 554.94,
+    "completion": "2026-09-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A1DCB2EA082B946A78F8F1D3028985CCD?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67337,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 2,
+    "apartments": 7,
+    "livingArea": 647.43,
+    "completion": "2026-09-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A304CDF4F76A645EF8D84652D0693F785?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67338,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 2,
+    "apartments": 6,
+    "livingArea": 554.94,
+    "completion": "2027-06-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AE76E9DD1F67E4959A095CA1EFFE0A781?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4866,
+     47.0812
+    ]
+   },
+   "properties": {
+    "objId": 67339,
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГСА ДЕВЕЛОПМЕНТ",
+    "devInn": "9310009539",
+    "floorMin": 2,
+    "floorMax": 2,
+    "apartments": 7,
+    "livingArea": 647.43,
+    "completion": "2027-06-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A34F77857DBDC422C837C0A897BDE0F30?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5627,
+     47.1118
+    ]
+   },
+   "properties": {
+    "objId": 67648,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 2",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 17,
+    "floorMax": 17,
+    "apartments": 207,
+    "livingArea": 11214.72,
+    "completion": "2027-06-30",
+    "avgPrice": 128932,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A115F3628F852429688D5B02DFD30A992?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5616,
+     47.1115
+    ]
+   },
+   "properties": {
+    "objId": 67649,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 3",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 130,
+    "livingArea": 5806.36,
+    "completion": "2027-03-31",
+    "avgPrice": 185940,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A152365596FDF447CB52C89988327FDE1?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5282,
+     47.0947
+    ]
+   },
+   "properties": {
+    "objId": 67900,
+    "nameObj": "Жилой комплекс \"ТОПАЗ\"",
+    "objAddr": "р-н Жовтневый, ул Апатова, д. 129А",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ТЮС-НР2",
+    "devInn": "9309026515",
+    "floorMin": 8,
+    "floorMax": 9,
+    "apartments": 79,
+    "livingArea": 4576.18,
+    "completion": "2027-03-31",
+    "avgPrice": 150065,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A14F4EEE32E97452A91D9E54B5B10531E?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5066,
+     47.1193
+    ]
+   },
+   "properties": {
+    "objId": 67992,
+    "nameObj": "ЖК \"Кленовая аллея\", зона 6, Дом 6",
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СОЛНЕЧНАЯ",
+    "devInn": "9311026992",
+    "floorMin": 2,
+    "floorMax": 12,
+    "apartments": 472,
+    "livingArea": 20391.22,
+    "completion": "2026-12-31",
+    "avgPrice": 159954,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A02C49F704CFD41CCB70647374BCE8E4F?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5074,
+     47.1191
+    ]
+   },
+   "properties": {
+    "objId": 67993,
+    "nameObj": "ЖК \"Кленовая аллея\", Дом 7 Корпус 1 ",
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СОЛНЕЧНАЯ",
+    "devInn": "9311026992",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 110,
+    "livingArea": 4543.87,
+    "completion": "2026-12-31",
+    "avgPrice": 147597,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AB542E8C802E64858953BFA1C2EDB5727?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.508,
+     47.1187
+    ]
+   },
+   "properties": {
+    "objId": 67994,
+    "nameObj": "ЖК \"Кленовая аллея\", Дом 7 Корпус 2",
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СОЛНЕЧНАЯ",
+    "devInn": "9311026992",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 88,
+    "livingArea": 4703.24,
+    "completion": "2026-12-31",
+    "avgPrice": 164461,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AFA0B3D22524549D5BDDBB2180F2E6677?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5086,
+     47.1181
+    ]
+   },
+   "properties": {
+    "objId": 67995,
+    "nameObj": "ЖК \"Кленовая аллея\", Дом 7 Корпус 3",
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СОЛНЕЧНАЯ",
+    "devInn": "9311026992",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 88,
+    "livingArea": 4539.58,
+    "completion": "2026-12-31",
+    "avgPrice": 148344,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ABDE7792D7F40444295D94FE3B883E5DA?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5188,
+     47.1121
+    ]
+   },
+   "properties": {
+    "objId": 68100,
+    "objAddr": "г. Мариуполь, ул 50 лет СССР, д. 59а",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ОЛИМПСТРОЙ НР",
+    "devInn": "9309027678",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 128,
+    "livingArea": 5079.84,
+    "completion": "2026-09-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A09A9916731CC4850AAA63529163CEA0E?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5547,
+     47.1051
+    ]
+   },
+   "properties": {
+    "objId": 68602,
+    "nameObj": "ЖК Садовые кварталы",
+    "objAddr": "г. Мариуполь, ул Артёма",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СК АЗОВСКИЙ БЕРЕГ",
+    "devInn": "9308026872",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 128,
+    "livingArea": 4304.8,
+    "completion": "2027-09-30",
+    "avgPrice": 221606,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ACAE42AD65CC440EDB1170A2BCB74FD0C?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5548,
+     47.1051
+    ]
+   },
+   "properties": {
+    "objId": 68677,
+    "nameObj": "ЖК Садовые кварталы",
+    "objAddr": "г. Мариуполь, ул Артёма",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СК АЗОВСКИЙ БЕРЕГ",
+    "devInn": "9308026872",
+    "floorMin": 17,
+    "floorMax": 17,
+    "apartments": 255,
+    "livingArea": 9844.8,
+    "completion": "2028-03-31",
+    "avgPrice": 200064,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A0F11189A2F4D4FEC8ACD9E6FA479FB10?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.561,
+     47.1118
+    ]
+   },
+   "properties": {
+    "objId": 68703,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 23",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 81,
+    "livingArea": 4146.57,
+    "completion": "2026-12-31",
+    "avgPrice": 131103,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A06B8F4C8A7FC4EB2B1D2373B43D59AA9?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6371,
+     47.1115
+    ]
+   },
+   "properties": {
+    "objId": 68739,
+    "nameObj": "Жилой комплекс \"Чувства\" дом Баланс",
+    "objAddr": "г. Мариуполь, пр-кт 1 Мая, д. 62, корпус а",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ЭВОДОМ-5",
+    "devInn": "9303038232",
+    "floorMin": 6,
+    "floorMax": 6,
+    "apartments": 58,
+    "livingArea": 2608.29,
+    "completion": "2026-12-31",
+    "avgPrice": 202880,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AF3DEEEECB0714795854A5B222BD8088E?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.636,
+     47.1114
+    ]
+   },
+   "properties": {
+    "objId": 68740,
+    "nameObj": "Жилой комплекс \"Чувства\" дом Статика",
+    "objAddr": "г. Мариуполь, пер Лечебный, д. 11, корпус а",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ЭВОДОМ-5",
+    "devInn": "9303038232",
+    "floorMin": 6,
+    "floorMax": 6,
+    "apartments": 29,
+    "livingArea": 1302.1,
+    "completion": "2026-12-31",
+    "avgPrice": 183750,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A6C69D2BEB3714E62B68F960AF0F46FF8?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6359,
+     47.111
+    ]
+   },
+   "properties": {
+    "objId": 68741,
+    "nameObj": "Жилой комплекс \"Чувства\" дом Штиль",
+    "objAddr": "г. Мариуполь, пер Лечебный, д. 9, корпус а",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ЭВОДОМ-5",
+    "devInn": "9303038232",
+    "floorMin": 6,
+    "floorMax": 6,
+    "apartments": 29,
+    "livingArea": 1301.78,
+    "completion": "2026-12-31",
+    "avgPrice": 189319,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A6F8A5E2BA3F54FC9BD418C70B24C8D44?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5555,
+     47.1045
+    ]
+   },
+   "properties": {
+    "objId": 68792,
+    "nameObj": "ЖК Садовые кварталы",
+    "objAddr": "г. Мариуполь, ул Артёма",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СК АЗОВСКИЙ БЕРЕГ",
+    "devInn": "9308026872",
+    "floorMin": 16,
+    "floorMax": 16,
+    "apartments": 364,
+    "livingArea": 12927.3,
+    "completion": "2028-03-31",
+    "avgPrice": 211469,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A3374F3FBB7F64FA2826ACF16E09B768A?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5635,
+     47.1113
+    ]
+   },
+   "properties": {
+    "objId": 68872,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 1",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 17,
+    "floorMax": 17,
+    "apartments": 255,
+    "livingArea": 11711.82,
+    "completion": "2026-12-31",
+    "avgPrice": 139310,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A7FF7CED292064C948C8AA1EDD31DB660?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5563,
+     47.1088
+    ]
+   },
+   "properties": {
+    "objId": 69344,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 22",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 170,
+    "livingArea": 8861.71,
+    "completion": "2026-12-31",
+    "avgPrice": 133640,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A782FFC3EABE04A6FA88B1ABB3260C01D?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5086,
+     47.0671
+    ]
+   },
+   "properties": {
+    "objId": 69398,
+    "nameObj": "ЖК «Дом у моря»",
+    "objAddr": "г. Мариуполь, пр-кт Лунина",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СК ПРОСПЕКТ",
+    "devInn": "9308027435",
+    "floorMin": 19,
+    "floorMax": 19,
+    "apartments": 258,
+    "livingArea": 9315.1,
+    "completion": "2027-12-31",
+    "avgPrice": 214376,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A89AFE3B7873F4A36A1426D33DF9C4CA3?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5219,
+     47.0942
+    ]
+   },
+   "properties": {
+    "objId": 69427,
+    "nameObj": "Резиденция Селект",
+    "objAddr": "г. Мариуполь, пр-кт Строителей",
+    "siteStatus": "Сданные",
+    "objStatus": 2,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 180,
+    "livingArea": 8468.4,
+    "completion": "2026-08-31",
+    "avgPrice": 138927,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A6FA29EE536064A69803EDC5A679BDC0A?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.522,
+     47.0944
+    ]
+   },
+   "properties": {
+    "objId": 69749,
+    "nameObj": "Резиденция Селект",
+    "objAddr": "г. Мариуполь, пр-кт Строителей",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 180,
+    "livingArea": 8451.7,
+    "completion": "2030-09-30",
+    "avgPrice": 152853,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A8A5C3CE2AF4845C199CB69F62584F00A?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5208,
+     47.0945
+    ]
+   },
+   "properties": {
+    "objId": 69751,
+    "nameObj": "Резиденция Селект",
+    "objAddr": "г. Мариуполь, пр-кт Строителей",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 108,
+    "livingArea": 4824.5,
+    "completion": "2030-09-30",
+    "avgPrice": 166498,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A525F615FD2FE4859AE0E9CE412B0168B?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5111,
+     47.1135
+    ]
+   },
+   "properties": {
+    "objId": 69766,
+    "nameObj": "ЖК \"МАЯК\"",
+    "objAddr": "г. Мариуполь, район Жовтневский, ул Куприна",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ АНТАРЕС",
+    "devInn": "9310014480",
+    "floorMin": 10,
+    "floorMax": 14,
+    "apartments": 460,
+    "livingArea": 20355.63,
+    "completion": "2028-03-31",
+    "avgPrice": 153990,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ACF605493883F4385B99E101AB8DE82C7?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5528,
+     47.1267
+    ]
+   },
+   "properties": {
+    "objId": 69966,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, ул Покрышкина, литера 2",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СУ-2007 ИНВЕСТ",
+    "devInn": "9310015807",
+    "floorMin": 1,
+    "floorMax": 14,
+    "apartments": 280,
+    "livingArea": 15481.68,
+    "completion": "2026-12-31",
+    "avgPrice": 154964,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A319E015F42704AFEBB38B513B6FF76C8?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5546,
+     47.1263
+    ]
+   },
+   "properties": {
+    "objId": 69985,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, ул Покрышкина, литера 3",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СУ-2007 ИНВЕСТ",
+    "devInn": "9310015807",
+    "floorMin": 1,
+    "floorMax": 14,
+    "apartments": 280,
+    "livingArea": 15481.68,
+    "completion": "2027-03-31",
+    "avgPrice": 138191,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A97B8756C3708464C8AA7F056F53734F4?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5598,
+     47.1076
+    ]
+   },
+   "properties": {
+    "objId": 70022,
+    "nameObj": "ЖК Садовые кварталы",
+    "objAddr": "г. Мариуполь, ул Артёма, д. 134",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СК ВОЗРОЖДЕНИЕ",
+    "devInn": "9308026880",
+    "floorMin": 2,
+    "floorMax": 16,
+    "apartments": 434,
+    "livingArea": 15309.8,
+    "completion": "2027-12-31",
+    "avgPrice": 197554,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AF213AEEE816F4550A429098100563E59?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5609,
+     47.1087
+    ]
+   },
+   "properties": {
+    "objId": 70023,
+    "nameObj": "ЖК Садовые кварталы",
+    "objAddr": "г. Мариуполь, ул Артёма, д. 132, литера А",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СК ВОЗРОЖДЕНИЕ",
+    "devInn": "9308026880",
+    "floorMin": 2,
+    "floorMax": 16,
+    "apartments": 434,
+    "livingArea": 15321.4,
+    "completion": "2027-12-31",
+    "avgPrice": 202005,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A771611D31F924B61AF73DBAF5E2F6952?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5599,
+     47.1086
+    ]
+   },
+   "properties": {
+    "objId": 70024,
+    "nameObj": "ЖК Садовые кварталы",
+    "objAddr": "г. Мариуполь, б-р Шевченко, д. 71",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СК ВОЗРОЖДЕНИЕ",
+    "devInn": "9308026880",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 164,
+    "livingArea": 5997.4,
+    "completion": "2027-12-31",
+    "avgPrice": 193917,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ACD3385FF7CF34965B7EF8F5DFEB8B63E?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5218,
+     47.0977
+    ]
+   },
+   "properties": {
+    "objId": 70142,
+    "nameObj": "Резиденция Селект",
+    "objAddr": "г. Мариуполь, пр-кт Строителей",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 234,
+    "livingArea": 8771.6,
+    "completion": "2028-12-31",
+    "avgPrice": 200312,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AB87AF2D76F89462F9C27B11884CF6413?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.521,
+     47.0961
+    ]
+   },
+   "properties": {
+    "objId": 70147,
+    "nameObj": "Резиденция Селект",
+    "objAddr": "г. Мариуполь, пр-кт Строителей",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 126,
+    "livingArea": 4892.7,
+    "completion": "2028-12-31",
+    "avgPrice": 191511,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AE3932B3AA1C4419B84722B0B3F872C8E?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5551,
+     47.1069
+    ]
+   },
+   "properties": {
+    "objId": 70218,
+    "nameObj": "ЖК \"Ленинградский квартал\"",
+    "objAddr": "г. Мариуполь, пр-кт Металлургов, литера 18",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ СУ-2007",
+    "devInn": "9310008599",
+    "floorMin": 15,
+    "floorMax": 15,
+    "apartments": 117,
+    "livingArea": 6425.29,
+    "completion": "2027-03-31",
+    "avgPrice": 130202,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A46D343C5750E4B5D8ACC12ED65C61FD7?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5177,
+     47.0948
+    ]
+   },
+   "properties": {
+    "objId": 71399,
+    "nameObj": "\"ЖК Нахимовский 2 очередь\"",
+    "objAddr": "г. Мариуполь, ул Зелинского",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ КОРПОРАЦИЯ СМУ-5",
+    "devInn": "9310017508",
+    "floorMin": 12,
+    "floorMax": 12,
+    "apartments": 207,
+    "livingArea": 9035.93,
+    "completion": "2028-03-31",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643ACD0C925D96DF4FDEA77B416328C70C1F?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5196,
+     47.0929
+    ]
+   },
+   "properties": {
+    "objId": 71400,
+    "nameObj": "\"ЖК Нахимовский 2 очередь\"",
+    "objAddr": "г. Мариуполь, ул Зелинского",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ КОРПОРАЦИЯ СМУ-5",
+    "devInn": "9310017508",
+    "floorMin": 12,
+    "floorMax": 12,
+    "apartments": 108,
+    "livingArea": 5109.94,
+    "completion": "2028-03-31",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A7CAE1ECE3B434F7FBDB46AF0A44CCD4E?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4848,
+     47.0656
+    ]
+   },
+   "properties": {
+    "objId": 71674,
+    "nameObj": "Приморье Литер 1",
+    "objAddr": "г. Мариуполь, ул Латышева",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 123,
+    "livingArea": 4996.2,
+    "completion": "2031-03-31",
+    "avgPrice": 184637,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AD737D142ECA240DDBA8447B7A5DD2CA3?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4883,
+     47.0659
+    ]
+   },
+   "properties": {
+    "objId": 71675,
+    "nameObj": "Приморье Литер 2",
+    "objAddr": "г. Мариуполь",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 13,
+    "floorMax": 13,
+    "apartments": 121,
+    "livingArea": 4904.7,
+    "completion": "2031-03-31",
+    "avgPrice": 185860,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A60BBE118232B469AB892C8AE7C5EB608?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5179,
+     47.0975
+    ]
+   },
+   "properties": {
+    "objId": 71846,
+    "nameObj": "Резиденция. Концепт",
+    "objAddr": "г. Мариуполь, ул Зелинского",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 273,
+    "livingArea": 12354.4,
+    "completion": "2027-09-30",
+    "avgPrice": 170652,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A7FAF84AED2524E458799D673A3565949?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5182,
+     47.0981
+    ]
+   },
+   "properties": {
+    "objId": 71848,
+    "nameObj": "Резиденция. Концепт",
+    "objAddr": "г. Мариуполь, ул Зелинского",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 178,
+    "livingArea": 7708.0,
+    "completion": "2027-09-30",
+    "avgPrice": 171493,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A67C269A2BCFC43FA839695675CD1F175?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5172,
+     47.0976
+    ]
+   },
+   "properties": {
+    "objId": 71850,
+    "nameObj": "Резиденция. Концепт",
+    "objAddr": "г. Мариуполь, ул Зелинского",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ-1 ПОРФИР",
+    "devInn": "9310009271",
+    "floorMin": 10,
+    "floorMax": 10,
+    "apartments": 128,
+    "livingArea": 5112.9,
+    "completion": "2027-09-30",
+    "avgPrice": 197329,
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A13F1ED05FFDA4932863C5440C3389D4F?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5121,
+     47.1218
+    ]
+   },
+   "properties": {
+    "objId": 72700,
+    "objAddr": "г. Мариуполь, ул 60 лет СССР, д. 14, литера А",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ НОВОЕ ВРЕМЯ 3",
+    "devInn": "9309028294",
+    "floorMin": 9,
+    "floorMax": 10,
+    "apartments": 116,
+    "livingArea": 4487.48,
+    "completion": "2027-09-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A45F2CD4FE07E449AAC2C8FCAEAE51D66?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5116,
+     47.1236
+    ]
+   },
+   "properties": {
+    "objId": 72710,
+    "objAddr": "г. Мариуполь, район Жовтневый, ул Урицкого, д. 91",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ НОВОЕ ВРЕМЯ 3",
+    "devInn": "9309028294",
+    "floorMin": 9,
+    "floorMax": 10,
+    "apartments": 104,
+    "livingArea": 4035.28,
+    "completion": "2027-09-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AC0B33E08D85C4A9B8D52C1FBBD8E4DEF?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.51,
+     47.1268
+    ]
+   },
+   "properties": {
+    "objId": 72776,
+    "objAddr": "г. Мариуполь, район Жовтневый, ул Семененко, д. 4",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ НОВОЕ ВРЕМЯ 3",
+    "devInn": "9309028294",
+    "floorMin": 9,
+    "floorMax": 9,
+    "apartments": 104,
+    "livingArea": 4035.28,
+    "completion": "2027-09-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A66CC507EB21B42FEB6F91E32EEB62725?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.536,
+     47.0981
+    ]
+   },
+   "properties": {
+    "objId": 73578,
+    "objAddr": "г. Мариуполь, пр-кт Ленина, д. 87, литера А",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГЛАВНЫЙ ПЕРЕКРЕСТОК",
+    "devInn": "9310017875",
+    "floorMin": 19,
+    "floorMax": 19,
+    "apartments": 323,
+    "livingArea": 12482.94,
+    "completion": "2029-03-31",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A1B5ADBB27B45490583DC8ABA7C703824?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5346,
+     47.0982
+    ]
+   },
+   "properties": {
+    "objId": 73579,
+    "objAddr": "г. Мариуполь, пр-кт Ленина, д. 89",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ГЛАВНЫЙ ПЕРЕКРЕСТОК",
+    "devInn": "9310017875",
+    "floorMin": 19,
+    "floorMax": 19,
+    "apartments": 170,
+    "livingArea": 6448.89,
+    "completion": "2028-12-31",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AACFC71ACCB6641C589353D6610F97DE0?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6353,
+     47.1081
+    ]
+   },
+   "properties": {
+    "objId": 73667,
+    "nameObj": "Жилой дом «Особняк «Мари»",
+    "objAddr": "г. Мариуполь, район Орджоникидзевский р-н, пр-кт Победы, д. 30а",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ЭВОДОМ-5",
+    "devInn": "9303038232",
+    "floorMin": 3,
+    "floorMax": 3,
+    "apartments": 8,
+    "livingArea": 392.92,
+    "completion": "2027-06-30",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643A7C3201138DB746139D23C6E398604F7F?type=png",
+    "hasDetail": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.637,
+     47.1099
+    ]
+   },
+   "properties": {
+    "objId": 73679,
+    "nameObj": "Жилой комплекс \"Чувства\" дом Ритм",
+    "objAddr": "г. Мариуполь, пр-кт 1 Мая",
+    "siteStatus": "Строящиеся",
+    "objStatus": 0,
+    "devShortName": "СЗ ЭВОДОМ-5",
+    "devInn": "9303038232",
+    "floorMin": 6,
+    "floorMax": 6,
+    "apartments": 88,
+    "livingArea": 3935.14,
+    "completion": "2028-03-31",
+    "photoUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/api/ext/file/70726F6A6465636C2E646F63732E697A643AFEB6F671DC1E4BA9BC41A4AF2E3716A4?type=png",
+    "hasDetail": false
+   }
+  }
+ ]
+}

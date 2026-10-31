@@ -1,0 +1,9 @@
+# Local scratch / temp capture file (HARs, API dumps pasted during OSINT collection)
+/scratch
+
+# наш.дом.рф full-resolution original render images (~246 MB).
+# The downscaled copies in images_kmz/ (and the KMZs) are kept in the repo instead.
+/sources/dom-rf/images/
+
+# Editor
+/.vscode/

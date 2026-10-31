@@ -1,0 +1,692 @@
+{
+ "data": {
+  "list": [
+   {
+    "objId": 66292,
+    "objStatus": 0,
+    "latitude": 47.1136,
+    "longitude": 37.5121,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66987,
+    "objStatus": 0,
+    "latitude": 47.0956,
+    "longitude": 37.5172,
+    "isGeoposition": true
+   },
+   {
+    "objId": 70142,
+    "objStatus": 0,
+    "latitude": 47.0977,
+    "longitude": 37.5218,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66446,
+    "objStatus": 2,
+    "latitude": 47.0918,
+    "longitude": 37.5253,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67336,
+    "objStatus": 0,
+    "latitude": 47.0812,
+    "longitude": 37.4866,
+    "isGeoposition": true
+   },
+   {
+    "objId": 61271,
+    "objStatus": 2,
+    "latitude": 47.1062,
+    "longitude": 37.5543,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66541,
+    "objStatus": 2,
+    "latitude": 47.1091,
+    "longitude": 37.5572,
+    "isGeoposition": true
+   },
+   {
+    "objId": 73579,
+    "objStatus": 0,
+    "latitude": 47.0982,
+    "longitude": 37.5346,
+    "isGeoposition": true
+   },
+   {
+    "objId": 64116,
+    "objStatus": 2,
+    "latitude": 47.1266,
+    "longitude": 37.6868,
+    "isGeoposition": true
+   },
+   {
+    "objId": 65980,
+    "objStatus": 2,
+    "latitude": 47.1065,
+    "longitude": 37.5557,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67323,
+    "objStatus": 0,
+    "latitude": 47.0812,
+    "longitude": 37.4866,
+    "isGeoposition": true
+   },
+   {
+    "objId": 68677,
+    "objStatus": 0,
+    "latitude": 47.1051,
+    "longitude": 37.5548,
+    "isGeoposition": true
+   },
+   {
+    "objId": 70147,
+    "objStatus": 0,
+    "latitude": 47.0961,
+    "longitude": 37.521,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67337,
+    "objStatus": 0,
+    "latitude": 47.0812,
+    "longitude": 37.4866,
+    "isGeoposition": true
+   },
+   {
+    "objId": 70218,
+    "objStatus": 0,
+    "latitude": 47.1069,
+    "longitude": 37.5551,
+    "isGeoposition": true
+   },
+   {
+    "objId": 71400,
+    "objStatus": 0,
+    "latitude": 47.0929,
+    "longitude": 37.5196,
+    "isGeoposition": true
+   },
+   {
+    "objId": 68741,
+    "objStatus": 0,
+    "latitude": 47.111,
+    "longitude": 37.6359,
+    "isGeoposition": true
+   },
+   {
+    "objId": 68740,
+    "objStatus": 0,
+    "latitude": 47.1114,
+    "longitude": 37.636,
+    "isGeoposition": true
+   },
+   {
+    "objId": 59761,
+    "objStatus": 2,
+    "latitude": 47.0902,
+    "longitude": 37.5264,
+    "isGeoposition": true
+   },
+   {
+    "objId": 71675,
+    "objStatus": 0,
+    "latitude": 47.0659,
+    "longitude": 37.4883,
+    "isGeoposition": true
+   },
+   {
+    "objId": 71848,
+    "objStatus": 0,
+    "latitude": 47.0981,
+    "longitude": 37.5182,
+    "isGeoposition": true
+   },
+   {
+    "objId": 73679,
+    "objStatus": 0,
+    "latitude": 47.1099,
+    "longitude": 37.637,
+    "isGeoposition": true
+   },
+   {
+    "objId": 62529,
+    "objStatus": 2,
+    "latitude": 47.0945,
+    "longitude": 37.5375,
+    "isGeoposition": true
+   },
+   {
+    "objId": 64407,
+    "objStatus": 0,
+    "latitude": 47.1,
+    "longitude": 37.5105,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67649,
+    "objStatus": 0,
+    "latitude": 47.1115,
+    "longitude": 37.5616,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67994,
+    "objStatus": 0,
+    "latitude": 47.1187,
+    "longitude": 37.508,
+    "isGeoposition": true
+   },
+   {
+    "objId": 68872,
+    "objStatus": 0,
+    "latitude": 47.1113,
+    "longitude": 37.5635,
+    "isGeoposition": true
+   },
+   {
+    "objId": 62521,
+    "objStatus": 2,
+    "latitude": 47.0938,
+    "longitude": 37.5376,
+    "isGeoposition": true
+   },
+   {
+    "objId": 62961,
+    "objStatus": 2,
+    "latitude": 47.0924,
+    "longitude": 37.514,
+    "isGeoposition": true
+   },
+   {
+    "objId": 68602,
+    "objStatus": 0,
+    "latitude": 47.1051,
+    "longitude": 37.5547,
+    "isGeoposition": true
+   },
+   {
+    "objId": 71850,
+    "objStatus": 0,
+    "latitude": 47.0976,
+    "longitude": 37.5172,
+    "isGeoposition": true
+   },
+   {
+    "objId": 70022,
+    "objStatus": 0,
+    "latitude": 47.1076,
+    "longitude": 37.5598,
+    "isGeoposition": true
+   },
+   {
+    "objId": 70024,
+    "objStatus": 0,
+    "latitude": 47.1086,
+    "longitude": 37.5599,
+    "isGeoposition": true
+   },
+   {
+    "objId": 68739,
+    "objStatus": 0,
+    "latitude": 47.1115,
+    "longitude": 37.6371,
+    "isGeoposition": true
+   },
+   {
+    "objId": 69749,
+    "objStatus": 0,
+    "latitude": 47.0944,
+    "longitude": 37.522,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66986,
+    "objStatus": 0,
+    "latitude": 47.0954,
+    "longitude": 37.5172,
+    "isGeoposition": true
+   },
+   {
+    "objId": 65532,
+    "objStatus": 0,
+    "latitude": 47.1005,
+    "longitude": 37.6689,
+    "isGeoposition": true
+   },
+   {
+    "objId": 54271,
+    "objStatus": 2,
+    "latitude": 47.0974,
+    "longitude": 37.543,
+    "isGeoposition": true
+   },
+   {
+    "objId": 64601,
+    "objStatus": 2,
+    "latitude": 47.1105,
+    "longitude": 37.5565,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66197,
+    "objStatus": 2,
+    "latitude": 47.0908,
+    "longitude": 37.5274,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67223,
+    "objStatus": 0,
+    "latitude": 47.121,
+    "longitude": 37.5094,
+    "isGeoposition": true
+   },
+   {
+    "objId": 71399,
+    "objStatus": 0,
+    "latitude": 47.0948,
+    "longitude": 37.5177,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67325,
+    "objStatus": 0,
+    "latitude": 47.0789,
+    "longitude": 37.4885,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67324,
+    "objStatus": 0,
+    "latitude": 47.0967,
+    "longitude": 37.5414,
+    "isGeoposition": true
+   },
+   {
+    "objId": 62635,
+    "objStatus": 0,
+    "latitude": 47.1,
+    "longitude": 37.5093,
+    "isGeoposition": true
+   },
+   {
+    "objId": 54284,
+    "objStatus": 2,
+    "latitude": 47.0761,
+    "longitude": 37.5126,
+    "isGeoposition": true
+   },
+   {
+    "objId": 72700,
+    "objStatus": 0,
+    "latitude": 47.1218,
+    "longitude": 37.5121,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66988,
+    "objStatus": 0,
+    "latitude": 47.0863,
+    "longitude": 37.5137,
+    "isGeoposition": true
+   },
+   {
+    "objId": 68703,
+    "objStatus": 0,
+    "latitude": 47.1118,
+    "longitude": 37.561,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66225,
+    "objStatus": 0,
+    "latitude": 47.1006,
+    "longitude": 37.6698,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67338,
+    "objStatus": 0,
+    "latitude": 47.0812,
+    "longitude": 37.4866,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67339,
+    "objStatus": 0,
+    "latitude": 47.0812,
+    "longitude": 37.4866,
+    "isGeoposition": true
+   },
+   {
+    "objId": 73578,
+    "objStatus": 0,
+    "latitude": 47.0981,
+    "longitude": 37.536,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66593,
+    "objStatus": 2,
+    "latitude": 47.093,
+    "longitude": 37.5263,
+    "isGeoposition": true
+   },
+   {
+    "objId": 72776,
+    "objStatus": 0,
+    "latitude": 47.1268,
+    "longitude": 37.51,
+    "isGeoposition": true
+   },
+   {
+    "objId": 69751,
+    "objStatus": 0,
+    "latitude": 47.0945,
+    "longitude": 37.5208,
+    "isGeoposition": true
+   },
+   {
+    "objId": 71674,
+    "objStatus": 0,
+    "latitude": 47.0656,
+    "longitude": 37.4848,
+    "isGeoposition": true
+   },
+   {
+    "objId": 64690,
+    "objStatus": 2,
+    "latitude": 47.0923,
+    "longitude": 37.523,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66286,
+    "objStatus": 0,
+    "latitude": 47.125,
+    "longitude": 37.6901,
+    "isGeoposition": true
+   },
+   {
+    "objId": 59499,
+    "objStatus": 2,
+    "latitude": 47.1051,
+    "longitude": 37.5516,
+    "isGeoposition": true
+   },
+   {
+    "objId": 69344,
+    "objStatus": 0,
+    "latitude": 47.1088,
+    "longitude": 37.5563,
+    "isGeoposition": true
+   },
+   {
+    "objId": 55095,
+    "objStatus": 2,
+    "latitude": 47.1055,
+    "longitude": 37.5529,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66293,
+    "objStatus": 0,
+    "latitude": 47.1155,
+    "longitude": 37.5119,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67995,
+    "objStatus": 0,
+    "latitude": 47.1181,
+    "longitude": 37.5086,
+    "isGeoposition": true
+   },
+   {
+    "objId": 70023,
+    "objStatus": 0,
+    "latitude": 47.1087,
+    "longitude": 37.5609,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67335,
+    "objStatus": 0,
+    "latitude": 47.0812,
+    "longitude": 37.4866,
+    "isGeoposition": true
+   },
+   {
+    "objId": 69427,
+    "objStatus": 2,
+    "latitude": 47.0942,
+    "longitude": 37.5219,
+    "isGeoposition": true
+   },
+   {
+    "objId": 69766,
+    "objStatus": 0,
+    "latitude": 47.1135,
+    "longitude": 37.5111,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66544,
+    "objStatus": 2,
+    "latitude": 47.092,
+    "longitude": 37.5266,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66989,
+    "objStatus": 0,
+    "latitude": 47.0956,
+    "longitude": 37.5171,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67326,
+    "objStatus": 0,
+    "latitude": 47.0967,
+    "longitude": 37.5414,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67334,
+    "objStatus": 0,
+    "latitude": 47.0812,
+    "longitude": 37.4866,
+    "isGeoposition": true
+   },
+   {
+    "objId": 62717,
+    "objStatus": 0,
+    "latitude": 47.0961,
+    "longitude": 37.5296,
+    "isGeoposition": true
+   },
+   {
+    "objId": 71846,
+    "objStatus": 0,
+    "latitude": 47.0975,
+    "longitude": 37.5179,
+    "isGeoposition": true
+   },
+   {
+    "objId": 62540,
+    "objStatus": 0,
+    "latitude": 47.0974,
+    "longitude": 37.5273,
+    "isGeoposition": true
+   },
+   {
+    "objId": 60781,
+    "objStatus": 2,
+    "latitude": 47.0981,
+    "longitude": 37.5423,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66594,
+    "objStatus": 2,
+    "latitude": 47.0928,
+    "longitude": 37.5268,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67992,
+    "objStatus": 0,
+    "latitude": 47.1193,
+    "longitude": 37.5066,
+    "isGeoposition": true
+   },
+   {
+    "objId": 66545,
+    "objStatus": 0,
+    "latitude": 47.116,
+    "longitude": 37.513,
+    "isGeoposition": true
+   },
+   {
+    "objId": 72710,
+    "objStatus": 0,
+    "latitude": 47.1236,
+    "longitude": 37.5116,
+    "isGeoposition": true
+   },
+   {
+    "objId": 73667,
+    "objStatus": 0,
+    "latitude": 47.1081,
+    "longitude": 37.6353,
+    "isGeoposition": true
+   },
+   {
+    "objId": 61646,
+    "objStatus": 2,
+    "latitude": 47.0848,
+    "longitude": 37.5217,
+    "isGeoposition": true
+   },
+   {
+    "objId": 59762,
+    "objStatus": 2,
+    "latitude": 47.09,
+    "longitude": 37.5255,
+    "isGeoposition": true
+   },
+   {
+    "objId": 60475,
+    "objStatus": 2,
+    "latitude": 47.106,
+    "longitude": 37.5522,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67900,
+    "objStatus": 0,
+    "latitude": 47.0947,
+    "longitude": 37.5282,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67993,
+    "objStatus": 0,
+    "latitude": 47.1191,
+    "longitude": 37.5074,
+    "isGeoposition": true
+   },
+   {
+    "objId": 68100,
+    "objStatus": 0,
+    "latitude": 47.1121,
+    "longitude": 37.5188,
+    "isGeoposition": true
+   },
+   {
+    "objId": 69398,
+    "objStatus": 0,
+    "latitude": 47.0671,
+    "longitude": 37.5086,
+    "isGeoposition": true
+   },
+   {
+    "objId": 65916,
+    "objStatus": 0,
+    "latitude": 47.097,
+    "longitude": 37.5237,
+    "isGeoposition": true
+   },
+   {
+    "objId": 68792,
+    "objStatus": 0,
+    "latitude": 47.1045,
+    "longitude": 37.5555,
+    "isGeoposition": true
+   },
+   {
+    "objId": 65280,
+    "objStatus": 2,
+    "latitude": 47.0933,
+    "longitude": 37.5224,
+    "isGeoposition": true
+   },
+   {
+    "objId": 65286,
+    "objStatus": 0,
+    "latitude": 47.1084,
+    "longitude": 37.6303,
+    "isGeoposition": true
+   },
+   {
+    "objId": 69966,
+    "objStatus": 0,
+    "latitude": 47.1267,
+    "longitude": 37.5528,
+    "isGeoposition": true
+   },
+   {
+    "objId": 69985,
+    "objStatus": 0,
+    "latitude": 47.1263,
+    "longitude": 37.5546,
+    "isGeoposition": true
+   },
+   {
+    "objId": 58610,
+    "objStatus": 2,
+    "latitude": 47.1049,
+    "longitude": 37.5519,
+    "isGeoposition": true
+   },
+   {
+    "objId": 64571,
+    "objStatus": 2,
+    "latitude": 47.11,
+    "longitude": 37.5576,
+    "isGeoposition": true
+   },
+   {
+    "objId": 67648,
+    "objStatus": 0,
+    "latitude": 47.1118,
+    "longitude": 37.5627,
+    "isGeoposition": true
+   },
+   {
+    "objId": 62714,
+    "objStatus": 0,
+    "latitude": 47.0969,
+    "longitude": 37.531,
+    "isGeoposition": true
+   }
+  ]
+ }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Mariupol — Russian construction vs documented damage</title>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+<link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" rel="stylesheet"/>
+<link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" rel="stylesheet"/>
+<style>
+  :root{color-scheme:dark}
+  html,body{margin:0;height:100%;font:14px system-ui,sans-serif;background:#0b0e13;color:#e7ecf3}
+  #map{position:absolute;inset:0}
+  .panel{position:absolute;left:12px;top:12px;z-index:1000;background:rgba(16,20,28,.93);
+    border:1px solid #2a323f;border-radius:12px;padding:14px 16px;max-width:300px}
+  .panel h1{font-size:15px;margin:0 0 3px}
+  .panel p{margin:0 0 10px;color:#9aa6b6;font-size:12px}
+  .leg{display:flex;align-items:center;gap:8px;margin:6px 0;font-size:13px;cursor:pointer;user-select:none}
+  .leg input{accent-color:#e4572e}
+  .dot{width:13px;height:13px;border-radius:50%;border:1px solid #0008;flex:none}
+  .count{color:#8b97a7;font-size:11px;margin-left:auto}
+  .leaflet-popup-content{max-width:300px;max-height:340px;overflow:auto}
+  .leaflet-popup-content img{max-width:270px;border-radius:6px;margin-bottom:6px}
+  .leaflet-popup-content h3{margin:0 0 4px;font-size:14px}
+  .leaflet-popup-content table td{font-size:12px;padding:1px 6px 1px 0;vertical-align:top}
+  .leaflet-popup-content a{color:#4ea1ff}
+  .pill{display:inline-block;padding:1px 7px;border-radius:10px;font-size:11px;font-weight:600;color:#0b0e13}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="panel">
+  <h1>Mariupol</h1>
+  <p>Russian construction vs documented damage</p>
+  <label class="leg"><input type="checkbox" id="tDone" checked/><span class="dot" style="background:#35c46a"></span>Completed<span class="count" id="cDone"></span></label>
+  <label class="leg"><input type="checkbox" id="tBuild" checked/><span class="dot" style="background:#f5a623"></span>Under construction<span class="count" id="cBuild"></span></label>
+  <label class="leg"><input type="checkbox" id="tDmg" checked/><span class="dot" style="background:#e43030"></span>Documented damage<span class="count" id="cDmg"></span></label>
+  <p style="margin-top:10px;font-size:10px;color:#6b7686">Construction: наш.дом.рф · Damage: Tochnyi / Alex S (@4LEX5)</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="data/features.js"></script>
+<script>
+const map=L.map("map").setView([47.0974,37.5563],12);
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+  {maxZoom:19,attribution:"Imagery © Esri"}).addTo(map);
+
+const esc=s=>String(s==null?"":s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const doneL=L.layerGroup(), buildL=L.layerGroup();
+const dmgL=L.markerClusterGroup({chunkedLoading:true,maxClusterRadius:45});
+
+// ---- construction ----
+function constrPopup(p){
+  const row=(k,v)=>v?`<tr><td style='color:#889'>${k}</td><td>${esc(v)}</td></tr>`:"";
+  const pdf=p.rpdPdfLink?`<tr><td style='color:#889'>Declaration</td><td><a href='${p.rpdPdfLink}' target='_blank'>PDF (${esc(p.rpdNum||"")})</a></td></tr>`:"";
+  const img=p.photoUrl?`<img src='${p.photoUrl}' loading='lazy'/>`:"";
+  const col=p.objStatus===2?"#35c46a":"#f5a623";
+  return `${img}<h3>${esc(p.nameObj||p.objAddr||"obj "+p.objId)}</h3>`+
+    `<span class='pill' style='background:${col}'>${esc(p.siteStatus||"")}</span>`+
+    `<table style='margin-top:6px'>`+
+    row("Address",p.objAddr)+row("Developer",p.devShortName)+row("INN",p.devInn)+
+    row("OGRN",p.devOgrn)+row("Legal addr",p.devLegalAddr)+row("Director",p.devDirector)+
+    row("Contractor",p.generalContractor)+row("Floors",(p.floorMin&&p.floorMax)?`${p.floorMin}–${p.floorMax}`:"")+
+    row("Apartments",p.apartments)+row("Living m²",p.livingArea)+row("Completion",p.completion)+
+    row("Avg ₽/m²",p.avgPrice)+row("Class",p.objClass)+pdf+
+    `</table>`;
+}
+let cDone=0,cBuild=0;
+fetch("sources/dom-rf/mariupol_detailed.geojson").then(r=>r.json()).then(gj=>{
+  gj.features.forEach(f=>{
+    const p=f.properties,c=f.geometry.coordinates;
+    const done=p.objStatus===2;
+    const m=L.circleMarker([c[1],c[0]],{radius:6,weight:1,
+      color:done?"#1f7a44":"#9c6a10",fillColor:done?"#35c46a":"#f5a623",fillOpacity:.9})
+      .bindPopup(constrPopup(p),{maxWidth:300});
+    (done?doneL:buildL).addLayer(m); done?cDone++:cBuild++;
+  });
+  doneL.addTo(map); buildL.addTo(map);
+  document.getElementById("cDone").textContent=cDone;
+  document.getElementById("cBuild").textContent=cBuild;
+});
+
+// ---- damage ----
+let cDmg=0;
+(window.RDU_GEOJSON?.features||[]).forEach(f=>{
+  const c=f.geometry?.coordinates; if(!c) return;
+  const p=f.properties;
+  const dates=(p.dates||[]).map(d=>d.raw).filter(Boolean).join(", ");
+  L.circleMarker([c[1],c[0]],{radius:4,weight:1,color:"#8a1f1f",fillColor:"#e43030",fillOpacity:.85})
+   .bindPopup(`<h3>${esc(p.title_en||p.title_original||"")}</h3><b>${esc(p.layer_en||"")}</b>`+(dates?`<br>${esc(dates)}`:""))
+   .addTo(dmgL); cDmg++;
+});
+dmgL.addTo(map); document.getElementById("cDmg").textContent=cDmg;
+
+// ---- toggles ----
+const bind=(id,layer)=>document.getElementById(id).addEventListener("change",e=>{
+  e.target.checked?map.addLayer(layer):map.removeLayer(layer);});
+bind("tDone",doneL); bind("tBuild",buildL); bind("tDmg",dmgL);
+</script>
+</body>
+</html>

@@ -1,0 +1,1076 @@
+{
+ "props": {
+  "pageProps": {
+   "statusCode": 200,
+   "query": {
+    "type": "map",
+    "segment": "мариуполь",
+    "place": "0-1158"
+   },
+   "canonicalHref": "https://xn--80az8a.xn--d1aqf.xn--p1ai/новостройки/мариуполь/",
+   "dictionaries": {
+    "quarters": {
+     "loading": false,
+     "list": [
+      {
+       "label": "III кв. 2026",
+       "value": "2026-09-30"
+      },
+      {
+       "label": "IV кв. 2026",
+       "value": "2026-12-31"
+      },
+      {
+       "label": "I кв. 2027",
+       "value": "2027-03-31"
+      },
+      {
+       "label": "II кв. 2027",
+       "value": "2027-06-30"
+      },
+      {
+       "label": "III кв. 2027",
+       "value": "2027-09-30"
+      },
+      {
+       "label": "IV кв. 2027",
+       "value": "2027-12-31"
+      },
+      {
+       "label": "I кв. 2028",
+       "value": "2028-03-31"
+      },
+      {
+       "label": "II кв. 2028",
+       "value": "2028-06-30"
+      },
+      {
+       "label": "III кв. 2028",
+       "value": "2028-09-30"
+      },
+      {
+       "label": "IV кв. 2028",
+       "value": "2028-12-31"
+      },
+      {
+       "label": "I кв. 2029",
+       "value": "2029-03-31"
+      },
+      {
+       "label": "II кв. 2029",
+       "value": "2029-06-30"
+      },
+      {
+       "label": "III кв. 2029",
+       "value": "2029-09-30"
+      },
+      {
+       "label": "IV кв. 2029",
+       "value": "2029-12-31"
+      },
+      {
+       "label": "I кв. 2030",
+       "value": "2030-03-31"
+      },
+      {
+       "label": "II кв. 2030",
+       "value": "2030-06-30"
+      },
+      {
+       "label": "III кв. 2030",
+       "value": "2030-09-30"
+      },
+      {
+       "label": "IV кв. 2030",
+       "value": "2030-12-31"
+      },
+      {
+       "label": "I кв. 2031",
+       "value": "2031-03-31"
+      },
+      {
+       "label": "II кв. 2031",
+       "value": "2031-06-30"
+      },
+      {
+       "label": "III кв. 2031",
+       "value": "2031-09-30"
+      }
+     ]
+    }
+   },
+   "initialGeoPosition": {
+    "regionCd": "93",
+    "regionNm": "Донецкая Народная Республика",
+    "cityCd": "0-1158",
+    "cityNm": "Мариуполь"
+   }
+  },
+  "initialState": {
+   "tourism": {
+    "breadcrumbs": [],
+    "sidebar": {
+     "isClearButtonDisabled": true,
+     "isFiltered": true,
+     "isSubmitButtonLoading": false,
+     "isAllFilter": false
+    },
+    "filterValues": {
+     "search": null,
+     "regionCd": null,
+     "cityCd": null,
+     "metroId": null,
+     "devGroupId": null,
+     "devId": null,
+     "metroMaxTime": null,
+     "status": null,
+     "readyYear": null,
+     "readyQuarter": null,
+     "pricePerMeterFrom": null,
+     "pricePerMeterTo": null,
+     "soldOutFrom": null,
+     "soldOutTo": null,
+     "floorsFrom": null,
+     "floorsTo": null,
+     "metroWalk": null,
+     "hasSale": null,
+     "salesStarted": null,
+     "escrow": null,
+     "verified": null,
+     "parking": null,
+     "greenHouse": null,
+     "cargoElevator": null,
+     "freeLayout": null,
+     "stars": null,
+     "tourismTypes": null,
+     "classTypes": [],
+     "wallMaterial": [],
+     "energyClass": [],
+     "barrierType": [],
+     "landscaping": []
+    },
+    "availableFilterValues": {
+     "isLoading": false,
+     "totalObjects": 0
+    },
+    "list": {
+     "isLoading": false,
+     "list": [],
+     "total": 0,
+     "page": 0
+    },
+    "map": {
+     "isLoading": false,
+     "objects": [],
+     "total": 0
+    },
+    "sortType": "DEFAULT",
+    "geo": {
+     "position": {},
+     "isNeedDetectGeo": false,
+     "isLoading": false
+    }
+   },
+   "dictionaries": {
+    "regions": {
+     "loading": false
+    },
+    "statuses": {
+     "loading": false,
+     "list": [
+      {
+       "label": "Все",
+       "value": "allFlg"
+      },
+      {
+       "label": "Продажа квартир с гарантиями Фонда",
+       "value": "fundGuarantyFlg"
+      },
+      {
+       "label": "Продажа квартир через счета эскроу",
+       "value": "objGuarantyEscrowFlg"
+      },
+      {
+       "label": "Дома признаны проблемными",
+       "value": "problObjCnt"
+      },
+      {
+       "label": "Введена процедура банкротства",
+       "value": "devBankruptFlg"
+      }
+     ]
+    },
+    "statusesObjects": {
+     "loading": false,
+     "list": [
+      {
+       "label": "Строящиеся",
+       "value": "buildingFlag"
+      },
+      {
+       "label": "Дома признаны проблемными",
+       "value": "problemFlag"
+      }
+     ]
+    },
+    "quarters": {
+     "loading": false,
+     "list": [
+      {
+       "label": "III кв. 2026",
+       "value": "2026-09-30"
+      },
+      {
+       "label": "IV кв. 2026",
+       "value": "2026-12-31"
+      },
+      {
+       "label": "I кв. 2027",
+       "value": "2027-03-31"
+      },
+      {
+       "label": "II кв. 2027",
+       "value": "2027-06-30"
+      },
+      {
+       "label": "III кв. 2027",
+       "value": "2027-09-30"
+      },
+      {
+       "label": "IV кв. 2027",
+       "value": "2027-12-31"
+      },
+      {
+       "label": "I кв. 2028",
+       "value": "2028-03-31"
+      },
+      {
+       "label": "II кв. 2028",
+       "value": "2028-06-30"
+      },
+      {
+       "label": "III кв. 2028",
+       "value": "2028-09-30"
+      },
+      {
+       "label": "IV кв. 2028",
+       "value": "2028-12-31"
+      },
+      {
+       "label": "I кв. 2029",
+       "value": "2029-03-31"
+      },
+      {
+       "label": "II кв. 2029",
+       "value": "2029-06-30"
+      },
+      {
+       "label": "III кв. 2029",
+       "value": "2029-09-30"
+      },
+      {
+       "label": "IV кв. 2029",
+       "value": "2029-12-31"
+      },
+      {
+       "label": "I кв. 2030",
+       "value": "2030-03-31"
+      },
+      {
+       "label": "II кв. 2030",
+       "value": "2030-06-30"
+      },
+      {
+       "label": "III кв. 2030",
+       "value": "2030-09-30"
+      },
+      {
+       "label": "IV кв. 2030",
+       "value": "2030-12-31"
+      },
+      {
+       "label": "I кв. 2031",
+       "value": "2031-03-31"
+      },
+      {
+       "label": "II кв. 2031",
+       "value": "2031-06-30"
+      },
+      {
+       "label": "III кв. 2031",
+       "value": "2031-09-30"
+      }
+     ]
+    },
+    "problemReason": {
+     "loading": false,
+     "list": []
+    },
+    "mechanisms": {
+     "loading": false,
+     "list": []
+    },
+    "developers": {
+     "developers": [],
+     "total": 0,
+     "page": 0,
+     "loading": false,
+     "loaded": false,
+     "searchQuery": null,
+     "searchLoading": false,
+     "foundDevelopers": null
+    },
+    "companyGroups": {
+     "companyGroups": [],
+     "total": 0,
+     "page": 0,
+     "loading": false,
+     "loaded": false,
+     "searchQuery": null,
+     "searchLoading": false,
+     "foundCompanyGroups": null
+    },
+    "metro": {
+     "loading": false,
+     "loaded": false,
+     "list": [],
+     "total": 0,
+     "page": 0,
+     "searchQuery": null,
+     "searchLoading": false,
+     "foundMetroStations": null
+    },
+    "places": {
+     "places": [],
+     "total": 0,
+     "page": 0,
+     "loading": false,
+     "searchQuery": null,
+     "searchLoading": false
+    },
+    "commissioningYears": {
+     "list": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026",
+      "2027",
+      "2028",
+      "2029",
+      "2030",
+      "2031",
+      "2032",
+      "2033",
+      "2034",
+      "2035",
+      "2036",
+      "2037",
+      "2038",
+      "2039"
+     ],
+     "isLoading": false
+    }
+   },
+   "erz": {
+    "builders": {
+     "loading": false,
+     "data": {},
+     "page": 0,
+     "limit": 10
+    },
+    "companyGroup": {
+     "loading": false,
+     "loadingTable": false,
+     "info": {},
+     "developers": [],
+     "housesLinks": {},
+     "houses": {},
+     "flatLinks": {},
+     "flats": [],
+     "offset": 0,
+     "statistics": {
+      "soldArea": 0,
+      "soldAreaPerc": 0,
+      "unsoldArea": 0,
+      "unsoldAreaPerc": 0,
+      "salesNotOpen": 0,
+      "salesNotOpenPerc": 0
+     }
+    },
+    "filters": {
+     "subject": null,
+     "regionHD": null,
+     "status": [],
+     "saleRoomFlg": false,
+     "isLivingFlg": {},
+     "objStatus": {
+      "0": true
+     },
+     "regions": [],
+     "regionsHD": [],
+     "isRegionsListLoading": false,
+     "isRegionsHDListLoading": false,
+     "disabledValues": {}
+    },
+    "builder": {
+     "loading": false,
+     "loadingTable": false,
+     "builder": {},
+     "buildersOfGroupTable": {
+      "items": [],
+      "page": -1
+     },
+     "houses": {
+      "list": [],
+      "total": 0
+     },
+     "isHousesLoading": false,
+     "housesLinks": {},
+     "flatLinks": {},
+     "flats": {
+      "list": []
+     },
+     "beneficiaries": [],
+     "banks": [],
+     "documents": [],
+     "associations": []
+    },
+    "sort": {
+     "column": "devShortNm",
+     "direction": "asc"
+    },
+    "efrsb": []
+   },
+   "erzhsk": {
+    "houseList": {
+     "loading": false,
+     "data": {},
+     "page": 0,
+     "isLoadingCount": false,
+     "limit": 20
+    },
+    "houseMap": {
+     "loading": false,
+     "visibleLoading": false,
+     "visibleObjects": []
+    },
+    "cooperative": {
+     "loading": false,
+     "cooperative": {},
+     "cooperativesOfGroupTable": {
+      "items": [],
+      "page": -1
+     }
+    },
+    "cooperatives": {
+     "loading": false,
+     "data": {},
+     "page": 0,
+     "limit": 10
+    },
+    "filters": {
+     "subject": "",
+     "regionActivity": null
+    },
+    "housesSort": {
+     "column": "zorgId.zorgShortNm",
+     "direction": "asc"
+    },
+    "housesFilters": {
+     "region": null,
+     "toQuarter": null,
+     "fromQuarter": null,
+     "isClearButtonDisabled": true,
+     "isFiltered": true
+    },
+    "sort": {
+     "column": "zorgShortNm",
+     "direction": "asc"
+    },
+    "objectCard": {
+     "documents": {
+      "loading": false,
+      "data": null
+     },
+     "mainInfo": {
+      "loading": false,
+      "data": false
+     }
+    },
+    "mapSearch": {
+     "searchList": [],
+     "listLoading": false,
+     "hasMore": false
+    }
+   },
+   "individualHouses": {
+    "filters": {
+     "searchValue": "",
+     "regionCd": "",
+     "buildFlg": {
+      "1": true
+     },
+     "devId": "",
+     "devGroupId": "",
+     "fromQuarter": "",
+     "toQuarter": "",
+     "count": 0,
+     "isLoadingCount": false,
+     "disabledFilterValues": {}
+    },
+    "data": {
+     "loading": false,
+     "data": [],
+     "page": 0,
+     "limit": 20
+    },
+    "dataManagement": {
+     "sortingDirection": "asc",
+     "sortingType": null,
+     "pageSize": 20
+    },
+    "sort": {
+     "column": "objReady100PercDt",
+     "direction": "asc"
+    }
+   },
+   "kn": {
+    "breadcrumbs": [],
+    "hfurl": {
+     "hfurl": "/новостройки/мариуполь/?type=map",
+     "canonical": "/новостройки/мариуполь/",
+     "hfurlFilter": {},
+     "hfurlGeo": {
+      "cityCd": "1158"
+     },
+     "breadcrumbUrls": {
+      "main": "/новостройки/",
+      "region": "/новостройки/донецкая-народная-республика/",
+      "city": "/новостройки/мариуполь/"
+     },
+     "allParams": {
+      "cityCd": "1158",
+      "type": "map"
+     }
+    },
+    "seo": {
+     "aggregations": {
+      "anchor": "",
+      "geo": ""
+     },
+     "aiDescription": {}
+    },
+    "newbuildings": {
+     "comparison": {
+      "list": []
+     },
+     "houses": {
+      "isProblemObjects": false,
+      "loading": false,
+      "data": [],
+      "page": 0,
+      "limit": 20
+     },
+     "knLinking": {
+      "sections": {
+       "REGIONS": [],
+       "CITIES": [],
+       "METROS": [],
+       "DEVELOPERS": []
+      },
+      "loading": false
+     },
+     "lkflFavorite": {
+      "list": [],
+      "count": 0,
+      "isLoading": false
+     },
+     "problemObjects": {
+      "loading": false
+     },
+     "quickLinks": {
+      "groups": null
+     }
+    },
+    "filters": {
+     "subject": null,
+     "period": {},
+     "status": [
+      "allFlg"
+     ],
+     "objStatus": "",
+     "objId": null,
+     "devId": null,
+     "problemReason": null,
+     "mechanism": null,
+     "escrowFlag": null,
+     "fundFlag": null,
+     "startSaleFlg": null,
+     "residentialBuildings": null,
+     "objClass": null,
+     "objTypeCd": null,
+     "wall": null,
+     "energyEff": null,
+     "freePlan": null,
+     "soldOut": null,
+     "soldOutMin": null,
+     "parkingFlg": null,
+     "saleRoomFlg": null,
+     "isSaleRoomFilterAvailable": false,
+     "livElemEntrCnt": null,
+     "livElemEntrFloor": null,
+     "maxLivingCnt": null,
+     "fromFloor": null,
+     "toFloor": null,
+     "fromPrice": null,
+     "toPrice": null,
+     "fromSalePrice": null,
+     "toSalePrice": null,
+     "region": null,
+     "place": "0-1158",
+     "checkFlg": null,
+     "toQuarter": null,
+     "fromQuarter": null,
+     "companyGroupId": null,
+     "dduFlg": null,
+     "transferFlg": null,
+     "walkFlg": "1",
+     "time": null,
+     "metroId": null,
+     "fromDatePubl": null,
+     "toDatePubl": null,
+     "drawingAreaBounds": null,
+     "polygonPoints": null,
+     "cargoPassElevFlg": null,
+     "landscaping": null,
+     "barrierTypes": null,
+     "keyIssuance": null,
+     "nonLivFirstFloor": null,
+     "objGreenHouseFlg": null,
+     "disabledFilterValues": {},
+     "keyIssuanceLimits": {},
+     "selectedObjectIds": null,
+     "isLoadingCount": false,
+     "isChangingCount": false,
+     "isMetroInitializing": false,
+     "isClearButtonDisabled": false,
+     "isFiltered": true,
+     "isFirstFilterSetApplied": false,
+     "isCallWithOnlyHobjId": true,
+     "hobjId": null,
+     "mapObjects": null
+    },
+    "sort": {
+     "column": {
+      "houses": "devId.devShortCleanNm",
+      "housingCommittee": "devId.devShortCleanNm"
+     },
+     "direction": {
+      "houses": "asc",
+      "housingCommittee": "asc"
+     }
+    },
+    "objectCard": {
+     "apartments": {
+      "apartmentsLoading": false,
+      "data": {
+       "houseInfo": {
+        "currentEntrance": {},
+        "floorInfo": []
+       }
+      }
+     },
+     "apartmentsFilters": {
+      "porch": null,
+      "floor": null
+     },
+     "apartmentsShowcase": {
+      "isLoading": false,
+      "data": null
+     },
+     "buildingsOnMap": {
+      "link": null
+     },
+     "constructionProgress": {
+      "loading": false
+     },
+     "documents": {
+      "loadingPermits": false,
+      "loadingRpd": false,
+      "loadingReports": false,
+      "loadingProjectDoc": false,
+      "loadingOther": false,
+      "documentsPermits": [],
+      "documentsRpd": [],
+      "documentsReports": [],
+      "documentsProjectDoc": [],
+      "documentsOther": []
+     },
+     "finishTypes": {
+      "finishTypes": null,
+      "premiseFinishingWorks": null,
+      "isLoading": false,
+      "hasError": false
+     },
+     "freeFlatsParams": {
+      "data": {},
+      "hasError": false
+     },
+     "infrastructure": {
+      "infrastructure": null,
+      "isInfrastructureLoading": false,
+      "deptransRating": null
+     },
+     "lkflInfo": {
+      "isFavorite": false,
+      "isLoading": false
+     },
+     "mainInfo": {
+      "loading": false,
+      "data": false,
+      "greenHoseData": {}
+     },
+     "nearbyObjects": {
+      "isLoading": false,
+      "data": []
+     },
+     "salesDynamic": {
+      "activeSaleType": "residential",
+      "monthlySalesByType": {
+       "residential": null,
+       "nonResidential": null,
+       "parking": null
+      },
+      "isMonthlySalesLoading": false,
+      "saleInfo": {
+       "isStarted": true,
+       "saleTypes": {}
+      },
+      "isSaleInfoLoading": false
+     },
+     "searchSpaces": {
+      "data": null
+     },
+     "flatGroups": {
+      "groups": [],
+      "isLoading": false,
+      "hasError": false
+     },
+     "flatGroupDetail": {
+      "isLoading": false,
+      "hasError": false,
+      "detailByGroupId": {},
+      "ids": []
+     },
+     "nonResidentialSpaces": {
+      "hasNonResidentialSpaces": false,
+      "isLoading": false,
+      "hasError": false
+     },
+     "randomApartments": {
+      "flatsNumber": null,
+      "flats": [],
+      "isLoading": false,
+      "hasError": false,
+      "isRequested": false
+     }
+    },
+    "problemObject": {
+     "loading": false
+    },
+    "dictionaries": {
+     "regions": {
+      "places": [],
+      "total": 0,
+      "page": 0,
+      "loading": false,
+      "searchQuery": null,
+      "searchLoading": false
+     }
+    }
+   },
+   "knMap": {
+    "knHousesMap": {
+     "loading": false,
+     "visibleObjectLoading": false,
+     "visibleObjects": [],
+     "isProblemObjects": false
+    },
+    "knMapState": {},
+    "knMapSearch": {
+     "searchList": [],
+     "listLoading": false,
+     "hasMore": false
+    }
+   },
+   "kk": {
+    "filters": {
+     "keyIssuanceLimits": null,
+     "disabledValues": {},
+     "limits": {},
+     "isClearButtonDisabled": true,
+     "isMetaDataLoading": false,
+     "isMetroInitializing": false,
+     "isFiltered": true,
+     "values": {
+      "objGreenHouseFlg": null,
+      "place": null,
+      "energyEff": null,
+      "objStatus": null,
+      "objClass": null,
+      "wall": null,
+      "state": null,
+      "fromFloor": null,
+      "toFloor": null,
+      "livElemEntrCnt": null,
+      "parkingFlg": null,
+      "checkFlg": null,
+      "fromQuarter": null,
+      "toQuarter": null,
+      "fundFlag": null,
+      "escrowFlag": null,
+      "companyGroupId": null,
+      "devId": null,
+      "residentialBuildings": null,
+      "fromDatePubl": null,
+      "toDatePubl": null,
+      "keyIssuance": null,
+      "livElemEntrFloor": null,
+      "cargoPassElevFlg": null,
+      "barrierTypes": null,
+      "landscaping": null,
+      "metroId": null,
+      "time": null,
+      "walkFlg": "1",
+      "rooms": null,
+      "flatStatus": "free,booked",
+      "priceFrom": null,
+      "priceTo": null,
+      "areaFrom": null,
+      "areaTo": null,
+      "floorFrom": null,
+      "floorTo": null,
+      "pricePerSquareMeterFrom": null,
+      "pricePerSquareMeterTo": null,
+      "drawingAreaBounds": null,
+      "polygonPoints": null
+     }
+    },
+    "sort": {
+     "column": {
+      "flats": "default",
+      "flatsCommittee": "devId.devShortCleanNm"
+     },
+     "direction": {
+      "flats": "desc",
+      "flatsCommittee": "asc"
+     }
+    },
+    "map": {
+     "loading": false
+    },
+    "list": {
+     "loading": false,
+     "data": [],
+     "page": 0,
+     "limit": 20
+    },
+    "disabledFilterOptions": {},
+    "nearby": {
+     "loading": false,
+     "data": [],
+     "error": false
+    }
+   },
+   "buildingsVerification": {
+    "constructionPeriodChart": {},
+    "delayHouses": {
+     "loading": true,
+     "data": []
+    },
+    "houseCard": {},
+    "search": {
+     "searchList": [],
+     "listLoading": false,
+     "offset": 0,
+     "hasMore": false
+    },
+    "flatGroups": {
+     "list": [],
+     "isLoading": false
+    },
+    "otherDevelopers": {
+     "list": [],
+     "isLoading": false
+    }
+   },
+   "ssn": {
+    "ssnState": {
+     "blocks": [],
+     "objects": [],
+     "objectIds": [],
+     "isOnlyDiffs": false
+    },
+    "search": {
+     "searchList": [],
+     "listLoading": false,
+     "offset": 0,
+     "hasMore": false
+    }
+   },
+   "seoHeading": {
+    "heading": ""
+   },
+   "apartment": {
+    "mainInfo": {
+     "application": {
+      "isLoading": false,
+      "hasError": false,
+      "number": null,
+      "notificationType": null
+     }
+    },
+    "infrastructure": {
+     "isLoading": false,
+     "data": null
+    },
+    "apartmentsShowcase": {
+     "isLoading": false,
+     "data": null,
+     "priceFrom": null,
+     "hasThisBuildingFlats": false,
+     "hasThisRegionFlats": false
+    }
+   },
+   "apartments": {
+    "filtering": {
+     "activeSort": {
+      "order": "asc",
+      "orderBy": "price",
+      "optionLabel": "По стоимости (сначала дешевле)",
+      "activeLabel": "По стоимости"
+     },
+     "view": "list",
+     "touchedFields": {},
+     "isClearButtonDisabled": true,
+     "isSchemeAvailable": false
+    },
+    "flats": {
+     "hasError": false,
+     "isLoading": false
+    },
+    "pagination": {
+     "pageSize": 20,
+     "currentPage": 1,
+     "totalCount": 0
+    },
+    "scheme": {
+     "hasError": false,
+     "isLoading": false,
+     "data": null,
+     "preliminaryData": null
+    }
+   },
+   "savedSearches": {
+    "list": [],
+    "totalItems": 0
+   },
+   "user": {
+    "userIp": "",
+    "profile": null,
+    "profileStatus": "initial"
+   },
+   "geo": {
+    "position": {
+     "regionCd": 93,
+     "regionNm": "Донецкая Народная Республика",
+     "cityCd": "0-1158",
+     "cityNm": "Мариуполь"
+    },
+    "is_default_geo": false,
+    "isNeedDetectGeo": false,
+    "isLoading": false
+   },
+   "contactOptions": {
+    "phone": null,
+    "isObjPhone": false,
+    "isObjOrder": false,
+    "isFlatPhone": false,
+    "isFlatOrder": false
+   },
+   "touristResidence": {
+    "flats": {
+     "data": null
+    },
+    "generalData": {
+     "data": null
+    },
+    "similarResidences": {
+     "list": null,
+     "link": null
+    }
+   },
+   "objHfrul": {
+    "hfurls": {},
+    "isLoading": false
+   }
+  },
+  "ssrBreakpoints": {
+   "isSmallerThanFullHD": true,
+   "isSmallerThanBigDesktop": false,
+   "isSmallerThanDesktop": false,
+   "isSmallerThanLaptop": false,
+   "isSmallerThanIpad": false,
+   "isSmallerThanTablet": false,
+   "isSmallerThanPhoneMedium": false
+  }
+ },
+ "page": "/newBuildings",
+ "query": {
+  "type": "map",
+  "segment": "мариуполь"
+ },
+ "buildId": "k-OwHor04_cnnKsj588yW",
+ "assetPrefix": "/%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B",
+ "runtimeConfig": {
+  "homeBaseUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai",
+  "yandexMetrikaCounter": "47282070",
+  "cleverDataId": "709adeb3-e412-4d8d-a306-7a96f561a550",
+  "keycloakUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/idm-services",
+  "lkApiUrl": "https://xn--i1afg.xn--d1aqf.xn--p1ai/api",
+  "lkflUrl": "https://xn--i1afg.xn--d1aqf.xn--p1ai",
+  "legalEntityAuthUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/services",
+  "mgpsUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/mgps/bank",
+  "authClientId": "app-eisgs-portal-fl.portal",
+  "keycloakRealmName": "personal-eisgs-idm",
+  "isSaleRoomFilterDisabled": false,
+  "apartmentImageBaseUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/продажи/file/",
+  "tgBotLink": "https://t.me/domrf_notification_bot",
+  "maxBotLink": "https://max.ru/nash_domrf_bot",
+  "imageResizerUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/resizer/image",
+  "salesModuleUrl": "https://xn--80az8a.xn--d1aqf.xn--p1ai/продажи",
+  "financialWidgetJsUrl": "https://finbroker.domoy.ru/widget/widget.iife.js",
+  "financialWidgetCssUrl": "https://finbroker.domoy.ru/widget/widget.css",
+  "financialWidgetFormUrl": "https://finbroker.domoy.ru/financial-form/",
+  "yandexMapV3Key": "caeeb460-b8d1-4b62-8d04-7ed7e1e22290"
+ },
+ "isFallback": false,
+ "customServer": true,
+ "gip": true,
+ "appGip": true
+}

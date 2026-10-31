@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KMZ validator — Mariupol construction vs damage</title>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+<style>
+  html,body{margin:0;height:100%;font:14px system-ui,sans-serif;background:#0b0e13;color:#e7ecf3}
+  #map{position:absolute;inset:0}
+  .panel{position:absolute;left:12px;top:12px;z-index:1000;background:rgba(16,20,28,.92);
+    border:1px solid #2a323f;border-radius:10px;padding:12px 14px;max-width:300px}
+  .panel h1{font-size:14px;margin:0 0 8px}
+  .leg{display:flex;align-items:center;gap:7px;margin:4px 0;font-size:12px}
+  .dot{width:12px;height:12px;border-radius:50%;border:1px solid #0008}
+  #status{margin-top:8px;font-size:12px;color:#e4a32e}
+  .leaflet-popup-content{max-width:330px;max-height:360px;overflow:auto}
+  .leaflet-popup-content img{max-width:300px;height:auto;border-radius:6px}
+  .leaflet-popup-content table td{font-size:12px;padding:1px 6px 1px 0}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="panel">
+  <h1>KMZ validator</h1>
+  <div class="leg"><span class="dot" style="background:#35c46a"></span> Completed (Сданные)</div>
+  <div class="leg"><span class="dot" style="background:#f5a623"></span> Under construction</div>
+  <div class="leg"><span class="dot" style="background:#e43030"></span> Documented damage</div>
+  <div id="status">Loading KMZ…</div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/jszip@3.10.1/dist/jszip.min.js"></script>
+<script>
+const KMZ="sources/dom-rf/mariupol_construction.kmz";
+const map=L.map("map").setView([47.0974,37.5563],13);
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+  {maxZoom:19,attribution:"Imagery © Esri"}).addTo(map);
+const S=document.getElementById("status");
+const COLOR={"#done":"#35c46a","#building":"#f5a623","#damage":"#e43030"};
+
+(async()=>{
+ try{
+  const buf=await fetch(KMZ).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.arrayBuffer()});
+  const zip=await JSZip.loadAsync(buf);
+  const kmlName=Object.keys(zip.files).find(n=>n.toLowerCase().endsWith(".kml"));
+  const kml=await zip.file(kmlName).async("text");
+  // extract embedded images -> blob URLs
+  const imgMap={};
+  await Promise.all(Object.keys(zip.files).filter(n=>/files\/.+\.(jpg|png)$/i.test(n)).map(async n=>{
+    const b=await zip.file(n).async("blob"); imgMap[n]=URL.createObjectURL(b);
+  }));
+  const dom=new DOMParser().parseFromString(kml,"text/xml");
+  const pms=[...dom.getElementsByTagName("Placemark")];
+  let counts={"#done":0,"#building":0,"#damage":0}, withImg=0;
+  const bounds=[];
+  for(const pm of pms){
+    const style=(pm.getElementsByTagName("styleUrl")[0]?.textContent||"").trim();
+    const co=pm.getElementsByTagName("coordinates")[0]?.textContent.trim().split(",");
+    if(!co||co.length<2) continue;
+    const lon=+co[0], lat=+co[1];
+    const name=pm.getElementsByTagName("name")[0]?.textContent||"";
+    let desc=pm.getElementsByTagName("description")[0]?.textContent||"";
+    desc=desc.replace(/src=['"]files\/([^'"]+)['"]/g,(m,f)=>{const k="files/"+f;return imgMap[k]?`src="${imgMap[k]}"`:m;});
+    if(desc.includes("blob:"))withImg++;
+    const color=COLOR[style]||"#888"; counts[style]=(counts[style]||0)+1;
+    const r=style==="#damage"?3.5:6;
+    L.circleMarker([lat,lon],{radius:r,color:color,weight:1,fillColor:color,fillOpacity:.85})
+      .bindPopup(`<b>${name||"(no name)"}</b><br>${desc}`,{maxWidth:330})
+      .addTo(map);
+    bounds.push([lat,lon]);
+  }
+  if(bounds.length)map.fitBounds(bounds,{padding:[30,30]});
+  S.innerHTML=`✓ KMZ valid · ${pms.length} placemarks<br>`+
+    `completed ${counts["#done"]||0} · building ${counts["#building"]||0} · damage ${counts["#damage"]||0}<br>`+
+    `${withImg} photos embedded & loaded`;
+  S.style.color="#35c46a";
+ }catch(e){ S.textContent="✗ Failed: "+e.message; S.style.color="#e43030"; }
+})();
+</script>
+</body>
+</html>

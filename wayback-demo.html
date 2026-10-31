@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Mariupol — satellite imagery over time (Wayback prototype)</title>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+<style>
+  :root { color-scheme: dark; }
+  html, body { margin: 0; height: 100%; font: 14px/1.4 system-ui, sans-serif; background: #0b0e13; color: #e7ecf3; }
+  #map { position: absolute; inset: 0; }
+  .panel {
+    position: absolute; left: 12px; top: 12px; z-index: 1000; width: 340px; max-width: calc(100vw - 24px);
+    background: rgba(16,20,28,.92); border: 1px solid #2a323f; border-radius: 12px; padding: 14px 16px;
+    backdrop-filter: blur(8px); box-shadow: 0 8px 28px rgba(0,0,0,.45);
+  }
+  .panel h1 { font-size: 15px; margin: 0 0 2px; }
+  .panel p.sub { margin: 0 0 12px; color: #9aa6b6; font-size: 12px; }
+  .date-big { font-size: 22px; font-weight: 700; letter-spacing: .3px; }
+  .meta { color: #9aa6b6; font-size: 11px; margin-top: 3px; min-height: 28px; }
+  .meta b { color: #c9d3df; font-weight: 600; }
+  input[type=range] { width: 100%; margin: 12px 0 6px; accent-color: #e4572e; }
+  input[type=range]:disabled { opacity: .4; }
+  .ticks { display: flex; justify-content: space-between; font-size: 10px; color: #6b7686; }
+  .row { display: flex; gap: 8px; margin-top: 10px; }
+  button { flex: 1; background: #1b2230; color: #e7ecf3; border: 1px solid #2f3a4a; border-radius: 8px; padding: 7px; cursor: pointer; font-size: 13px; }
+  button:hover:not(:disabled) { background: #242d3d; }
+  button:disabled { opacity: .4; cursor: default; }
+  button.play { background: #e4572e; border-color: #e4572e; color: #fff; }
+  label.toggle { display: flex; align-items: center; gap: 7px; margin-top: 10px; font-size: 12px; color: #c3ccd8; cursor: pointer; }
+  .status { margin-top: 10px; font-size: 11px; color: #e4a32e; min-height: 14px; }
+  .hint { margin-top: 8px; font-size: 11px; color: #8b97a7; }
+  .foot { margin-top: 10px; font-size: 10px; color: #6b7686; border-top: 1px solid #222a35; padding-top: 8px; }
+  .leaflet-container { background: #0b0e13; }
+  .crosshair { position:absolute; left:50%; top:50%; z-index:900; width:18px; height:18px; margin:-9px 0 0 -9px; pointer-events:none; }
+  .crosshair:before,.crosshair:after{content:"";position:absolute;background:#e4572e;}
+  .crosshair:before{left:8px;top:0;width:2px;height:18px;}
+  .crosshair:after{top:8px;left:0;height:2px;width:18px;}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="crosshair"></div>
+<div class="panel">
+  <h1>Mariupol through time</h1>
+  <p class="sub">Esri World Imagery Wayback · real capture dates · prototype</p>
+  <div class="date-big" id="dateLabel">—</div>
+  <div class="meta" id="meta"></div>
+  <input type="range" id="slider" min="0" max="0" step="1" value="0" disabled/>
+  <div class="ticks"><span id="tickFirst"></span><span id="tickLast"></span></div>
+  <div class="row">
+    <button id="prev" disabled>‹ Prev</button>
+    <button id="play" class="play" disabled>▶ Play</button>
+    <button id="next" disabled>Next ›</button>
+  </div>
+  <label class="toggle"><input type="checkbox" id="pinsToggle" checked/> Show damage pins</label>
+  <label class="toggle"><input type="checkbox" id="labelsToggle"/> Place labels</label>
+  <div class="status" id="status"></div>
+  <div class="hint">Dates = <b>actual satellite capture</b> at the crosshair / clicked pin, de-duplicated. Pan or click a pin to recompute for that spot.</div>
+  <div class="foot">Imagery © Esri, Maxar, Earthstar Geographics. Pins: Tochnyi / Alex S (@4LEX5).</div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data/features.js"></script>
+<script>
+const CONFIG_URL = 'https://s3-us-west-2.amazonaws.com/config.maptiles.arcgis.com/waybackconfig.json';
+const TILE = r => `https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/${r}/{z}/{y}/{x}`;
+
+const map = L.map('map', { zoomControl: true }).setView([47.108797, 37.5562131], 17); // Shevchenka Blvd 87
+L.control.scale({ imperial: false }).addTo(map);
+
+// Show current Esri imagery straight away so the map is never blank while metadata loads.
+const baseSat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+  { maxZoom: 19, maxNativeZoom: 18, attribution: 'Imagery © Esri' }).addTo(map);
+
+const labels = L.tileLayer(
+  'https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',
+  { maxZoom: 19, pane: 'shadowPane', attribution: 'Labels © Esri' });
+
+// ---------- Wayback catalog ----------
+let CANDIDATES = [];   // [{rel, releaseDate, metaBase}] quarterly sample, newest-last
+function fetchJSON(url, ms = 12000) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), ms);
+  return fetch(url, { signal: ctrl.signal }).then(r => r.json()).finally(() => clearTimeout(t));
+}
+async function loadCatalog() {
+  const cfg = await fetchJSON(CONFIG_URL);
+  const all = Object.entries(cfg).map(([rel, v]) => {
+    const m = /(\d{4}-\d{2}-\d{2})/.exec(v.itemTitle);
+    return { rel, releaseDate: m ? m[1] : '', metaBase: v.metadataLayerUrl };
+  }).filter(r => r.releaseDate >= '2017-01-01' && r.metaBase)
+    .sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
+  // keep newest release per calendar quarter -> ~quarterly candidate set
+  const byQ = new Map();
+  for (const r of all) {
+    const q = r.releaseDate.slice(0, 4) + 'Q' + Math.ceil(Number(r.releaseDate.slice(5, 7)) / 3);
+    byQ.set(q, r); // later (newer) overwrites -> newest in quarter
+  }
+  CANDIDATES = [...byQ.values()].sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
+}
+
+function identifyURL(base, lat, lon) {
+  const d = 0.0008;
+  const q = new URLSearchParams({
+    f: 'json', geometry: `${lon},${lat}`, geometryType: 'esriGeometryPoint', sr: '4326',
+    tolerance: '1', mapExtent: `${lon-d},${lat-d},${lon+d},${lat+d}`,
+    imageDisplay: '600,600,96', layers: 'all', returnGeometry: 'false'
+  });
+  return `${base}/identify?${q}`;
+}
+function parseDate(s) { // "7/5/2020" -> "2020-07-05"
+  if (!s) return '';
+  const m = /(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec(String(s));
+  if (m) return `${m[3]}-${m[1].padStart(2,'0')}-${m[2].padStart(2,'0')}`;
+  const iso = /(\d{4})-(\d{2})-(\d{2})/.exec(String(s)); return iso ? iso[0] : String(s);
+}
+async function captureAt(cand, lat, lon) {
+  try {
+    const r = await fetchJSON(identifyURL(cand.metaBase, lat, lon), 10000);
+    const a = r.results && r.results[0] && r.results[0].attributes;
+    if (!a) return null;
+    const date = parseDate(a.SRC_DATE2 || a.SRC_DATE || a['SRC_DATE2'] || a.DATE);
+    if (!date) return null;
+    return { date, src: a.SRC_DESC || a.NICE_DESC || a.SOURCE || '?', res: a.SRC_RES || a.NICE_RES || '?', rel: cand.rel };
+  } catch (e) { return null; }
+}
+
+// resolve distinct real captures at a point, de-duplicated by capture date
+let FRAMES = [];
+let computeToken = 0;
+async function computeFrames(lat, lon) {
+  const token = ++computeToken;
+  const total = CANDIDATES.length;
+  let done = 0;
+  setStatus(`Reading capture dates… 0/${total}`);
+  const results = await Promise.all(CANDIDATES.map(c =>
+    captureAt(c, lat, lon).then(r => {
+      done++;
+      if (token === computeToken) setStatus(`Reading capture dates… ${done}/${total}`);
+      return r;
+    })
+  ));
+  if (token !== computeToken) return; // superseded by a newer request
+  const byDate = new Map();
+  for (const r of results) {
+    if (!r) continue;
+    const prev = byDate.get(r.date);
+    // prefer finer resolution when the same capture appears via multiple releases
+    if (!prev || Number(r.res) < Number(prev.res)) byDate.set(r.date, r);
+  }
+  FRAMES = [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date));
+  setStatus(FRAMES.length ? `${FRAMES.length} distinct captures here` : 'No imagery metadata at this spot');
+  buildSlider();
+}
+
+// ---------- imagery layer swap ----------
+let current = null;
+function showFrame(i) {
+  if (!FRAMES.length) return;
+  i = Math.max(0, Math.min(i, FRAMES.length - 1));
+  const f = FRAMES[i];
+  // Older releases only have tiles up to ~z17 over Mariupol; cap native zoom so Leaflet
+  // upscales (blurry) rather than requesting a non-existent tile and showing black.
+  const next = L.tileLayer(TILE(f.rel), { maxZoom: 19, maxNativeZoom: 17, attribution: 'Imagery © Esri, Maxar, Earthstar Geographics' });
+  next.addTo(map);
+  const swap = () => { if (current && current !== next) map.removeLayer(current); current = next; };
+  next.once('load', swap); setTimeout(swap, 1200);
+  if (!current) current = next;
+  slider.value = i;
+  document.getElementById('dateLabel').textContent = f.date;
+  document.getElementById('meta').innerHTML =
+    `<b>${f.src}</b> · ${f.res} m/px &nbsp;|&nbsp; capture ${i+1} of ${FRAMES.length}`;
+}
+
+// ---------- UI ----------
+const slider = document.getElementById('slider');
+const playBtn = document.getElementById('play');
+function enable(on){ [slider, playBtn, document.getElementById('prev'), document.getElementById('next')].forEach(e => e.disabled = !on); }
+function setStatus(t){ document.getElementById('status').textContent = t; }
+function buildSlider() {
+  if (!FRAMES.length) { enable(false); document.getElementById('dateLabel').textContent = '—'; document.getElementById('meta').textContent=''; return; }
+  slider.max = FRAMES.length - 1; slider.value = FRAMES.length - 1;
+  document.getElementById('tickFirst').textContent = FRAMES[0].date.slice(0,4);
+  document.getElementById('tickLast').textContent = FRAMES[FRAMES.length-1].date.slice(0,4);
+  enable(true);
+  showFrame(FRAMES.length - 1); // start on most recent real capture
+}
+slider.addEventListener('input', () => showFrame(Number(slider.value)));
+document.getElementById('prev').onclick = () => showFrame(Number(slider.value) - 1);
+document.getElementById('next').onclick = () => showFrame(Number(slider.value) + 1);
+let timer = null;
+playBtn.onclick = () => {
+  if (timer) { clearInterval(timer); timer = null; playBtn.textContent = '▶ Play'; return; }
+  if (Number(slider.value) >= FRAMES.length - 1) showFrame(0);
+  playBtn.textContent = '⏸ Pause';
+  timer = setInterval(() => {
+    const i = Number(slider.value) + 1;
+    if (i > FRAMES.length - 1) { clearInterval(timer); timer = null; playBtn.textContent = '▶ Play'; return; }
+    showFrame(i);
+  }, 1600);
+};
+
+// ---------- pins ----------
+const pinLayer = L.layerGroup();
+try {
+  for (const ft of (window.RDU_GEOJSON && window.RDU_GEOJSON.features) || []) {
+    const c = ft.geometry && ft.geometry.coordinates; if (!c) continue;
+    L.circleMarker([c[1], c[0]], { radius: 4, color: '#e4572e', weight: 1, fillColor: '#ff7a4d', fillOpacity: .85 })
+      .bindTooltip(String(ft.properties.title_en || ft.properties.title_original || ''))
+      .on('click', e => { map.setView(e.latlng, Math.max(map.getZoom(), 17)); computeFrames(e.latlng.lat, e.latlng.lng); })
+      .addTo(pinLayer);
+  }
+} catch (e) { console.warn('pins failed', e); }
+pinLayer.addTo(map);
+document.getElementById('pinsToggle').onchange = e => e.target.checked ? pinLayer.addTo(map) : map.removeLayer(pinLayer);
+document.getElementById('labelsToggle').onchange = e => e.target.checked ? labels.addTo(map) : map.removeLayer(labels);
+
+// recompute for the view centre when the user pans/zooms (debounced)
+let moveT;
+map.on('moveend', () => { clearTimeout(moveT); moveT = setTimeout(() => { const c = map.getCenter(); computeFrames(c.lat, c.lng); }, 600); });
+
+// ---------- boot ----------
+(async () => {
+  setStatus('Loading Wayback catalog…');
+  try { await loadCatalog(); } catch (e) { setStatus('Failed to load catalog: ' + e.message); return; }
+  const c = map.getCenter();
+  computeFrames(c.lat, c.lng);
+})();
+</script>
+</body>
+</html>
