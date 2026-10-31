@@ -1,6 +1,74 @@
 
 /* Embedded Tochnyi story-map styles */
 
+/* Construction V2 keeps the original archive visually distinct. */
+.occupation-story { margin: 20px 0; padding: 20px; border-radius: 22px; border: 1px solid #b8cde0; background: #f4f8fc; scroll-margin-top: 16px; }
+.occupation-story > h2 { font-size: 29px; margin: 8px 0; }
+.occupation-story p { font-size: 15px; line-height: 1.5; }
+.occupation-steps { display: grid; gap: 12px; margin: 18px 0; }
+.occupation-step { border-left: 3px solid #ced8e3; padding: 0 0 0 12px; }
+.occupation-step.active { border-color: #005bbb; }
+.occupation-step > button { display: flex; align-items: center; gap: 8px; width: 100%; min-height: 44px; padding: 6px 0; border: 0; text-align: left; background: transparent; color: #003d7a; font-size: 17px; font-weight: 800; cursor: pointer; }
+.occupation-step > button span { display: grid; place-items: center; width: 26px; height: 26px; flex: 0 0 26px; border-radius: 50%; background: #e0eaf5; font-size: 13px; }
+.occupation-step.active > button span { background: #005bbb; color: #fff; }
+.occupation-step p { margin: 4px 0 8px; }
+.evidence-citations { display: flex; flex-wrap: wrap; gap: 5px; font-size: 12px; line-height: 1.5; }
+.evidence-citations a { text-decoration: underline; text-underline-offset: 3px; }
+.evidence-limit { padding: 10px 12px; border-left: 3px solid #cfaa15; background: #fff9dc; color: #53491d; font-size: 13px !important; line-height: 1.45; }
+.construction-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+.construction-stats strong { display: block; font-size: 24px; line-height: 1.1; color: #003d7a; }
+.construction-stats span { display: block; font-size: 12px; color: #52616f; }
+.capture-stamp { color: #52616f; font-size: 12px !important; line-height: 1.5; }
+#constructionFilters { border-bottom: 1px solid #dbe3ed; padding-bottom: 14px; margin-bottom: 14px; }
+#constructionFilters h3 { margin: 14px 0 8px; font-size: 17px; }
+.construction-toggle { display: flex; gap: 9px; align-items: center; min-height: 48px; margin: 2px 0; color: #17212b; font-size: 14px; text-transform: none; letter-spacing: normal; font-weight: 600; cursor: pointer; }
+.construction-toggle input { width: 20px; height: 20px; margin: 0; flex: 0 0 20px; accent-color: #005bbb; }
+.construction-toggle small { color: #5e6e7e; }
+.construction-symbol { display: inline-block; flex: 0 0 12px; width: 12px; height: 12px; border-radius: 3px; border: 1px solid rgba(0,0,0,.2); }
+.construction-symbol.complete { background: #087f78; }
+.construction-symbol.building { background: #c56b08; }
+.archive-symbol { color: #005bbb; flex: 0 0 12px; }
+.construction-note { font-size: 12px; line-height: 1.5; color: #52616f; }
+.construction-legend { position: absolute; left: 18px; bottom: 28px; z-index: 650; width: min(300px,calc(100% - 90px)); padding: 10px 14px; background: rgba(255,255,255,.96); border: 1px solid #bdcddd; border-radius: 16px; box-shadow: 0 4px 18px #0002; }
+.construction-story-link { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 44px; padding: 0; background: transparent; border: 0; text-align: left; color: #003d7a; font-size: 17px; font-weight: 800; cursor: pointer; }
+.construction-visible { display: block; font-size: 12px; color: #52616f; margin-bottom: 6px; }
+.construction-key { display: flex; flex-wrap: wrap; gap: 4px 10px; color: #243443; font-size: 11px; }
+.construction-key > span { display: inline-flex; align-items: center; gap: 4px; }
+.construction-key .construction-symbol { width: 9px; height: 9px; flex-basis: 9px; }
+.map-pane:has(.pin-panel.open) .construction-legend { display: none; }
+.construction-facts { margin: 14px 0; }
+.construction-facts > div { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.3fr); gap: 12px; padding: 9px 0; border-bottom: 1px solid #e2e8ee; font-size: 13px; line-height: 1.4; }
+.construction-facts dt { color: #52616f; }
+.construction-facts dd { margin: 0; font-weight: 600; overflow-wrap: anywhere; }
+.missing-value { font-weight: 400; color: #78848f; }
+.construction-photo { margin: 12px 0; }
+.construction-photo button { border: 0; background: transparent; padding: 0; width: 100%; cursor: zoom-in; }
+.construction-photo img { display: block; width: 100%; height: auto; max-height: 250px; object-fit: contain; background: #edf1f4; border-radius: 12px; }
+.construction-photo figcaption { font-size: 11px; line-height: 1.4; color: #657583; margin-top: 5px; }
+.construction-status { display: inline-block; border-radius: 8px; padding: 5px 8px; font-size: 12px; font-weight: 800; }
+.construction-status.complete { background: #dcf2ee; color: #075c57; }
+.construction-status.building { background: #ffedda; color: #814106; }
+.building-browser { margin: 12px 0; }
+.building-browser summary { font-size: 14px; min-height: 44px; cursor: pointer; display: list-item; padding-top: 10px; }
+.building-list { display: grid; max-height: 270px; overflow-y: auto; overscroll-behavior: contain; }
+.building-list button, .nearby-archive button { display: flex; align-items: center; gap: 9px; width: 100%; min-height: 48px; padding: 9px 5px; border: 0; border-bottom: 1px solid #dbe3ed; background: transparent; text-align: left; color: #003d7a; cursor: pointer; }
+.building-list button > span:last-child { min-width: 0; }
+.building-list strong, .building-list small { display: block; overflow-wrap: anywhere; font-size: 12px; }
+.building-list small { color: #52616f; font-size: 11px; margin-top: 4px; }
+.nearby-archive button { justify-content: space-between; font-size: 13px; }
+.nearby-archive small { white-space: nowrap; }
+.occupation-story button:focus-visible, #constructionFilters button:focus-visible, .construction-legend button:focus-visible, .construction-toggle input:focus-visible { outline: 3px solid #005bbb; outline-offset: 2px; border-radius: 4px; }
+@media (max-width: 980px) {
+  .construction-legend { left: 10px; bottom: calc(var(--sheet-peek) + 28px); width: min(300px,calc(100% - 20px)); padding: 6px 12px 10px; }
+  .occupation-story { padding: 16px; }
+  .construction-toggle { min-height: 48px; }
+}
+@media (max-width: 980px) and (max-height: 600px) {
+  .construction-legend { top: 75px; bottom: auto; width: 230px; }
+  .construction-key { display: none; }
+  .construction-story-link { font-size: 14px; }
+}
+
 :root {
   --tochnyi-blue: #005bbb;
   --tochnyi-yellow: #ffd500;

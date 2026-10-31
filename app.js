@@ -17,6 +17,7 @@ const geojson = window.RDU_GEOJSON;
   const state = {
     language: LANGS.includes(initialLanguage) ? initialLanguage : 'en',
     activeYear: 'all',
+    archiveVisible: true,
     search: '',
     enabledLayers: new Set(summary.layers.map(l => l.name_en || l.name)),
     activeChapter: null,
@@ -312,6 +313,7 @@ const geojson = window.RDU_GEOJSON;
 
   function featureMatches(feature) {
     const p = feature.properties;
+    if (!state.archiveVisible) return false;
     if (!state.enabledLayers.has(p.layer_en)) return false;
     if (state.activeYear !== 'all' && !(p.years || []).map(String).includes(String(state.activeYear))) return false;
     if (state.activeChapter) {
@@ -366,9 +368,11 @@ const geojson = window.RDU_GEOJSON;
     if (state.search) bits.push(`${tr('search')}: “${el.searchInput.value.trim()}”`);
     el.activeFilterText.textContent = bits.length ? bits.join(' · ') : tr('allLayersYears');
     performance.measure('rdu-filter', { start: started, end: performance.now() });
+    window.dispatchEvent(new Event('rdu:filters'));
   }
 
   function activateChapter(chapterId) {
+    state.archiveVisible = true;
     state.activeChapter = chapterId;
     state.timelineIndex = null;
     stopTimeline();
@@ -380,6 +384,7 @@ const geojson = window.RDU_GEOJSON;
   }
 
   function renderPinPanel(feature, timelineEvent=null) {
+    window.dispatchEvent(new Event('rdu:archive-pin'));
     state.selectedFeature = feature;
     state.selectedTimelineEvent = timelineEvent;
     const p = feature.properties;
@@ -458,6 +463,7 @@ const geojson = window.RDU_GEOJSON;
 
   function activateTimeline(index, fly=true) {
     if (!state.timelineEvents.length) return;
+    state.archiveVisible = true;
     state.timelineIndex = Math.max(0, Math.min(index, state.timelineEvents.length - 1));
     state.activeYear = 'all';
     state.activeChapter = null;
@@ -523,6 +529,7 @@ const geojson = window.RDU_GEOJSON;
     applyFilters();
     state.markers.forEach(({ marker }) => { if (marker.isPopupOpen()) marker.setPopupContent(popupHtml(state.featureById.get(marker.rduId))); });
     if (el.pinPanel.classList.contains('open') && state.selectedFeature) renderPinPanel(state.selectedFeature, state.selectedTimelineEvent);
+    window.dispatchEvent(new Event('rdu:language'));
   }
 
   let searchTimer;
@@ -544,6 +551,7 @@ const geojson = window.RDU_GEOJSON;
   });
 
   el.resetFilters.addEventListener('click', () => {
+    state.archiveVisible = true;
     clearTimeout(searchTimer);
     state.activeYear = 'all';
     state.search = '';
@@ -557,6 +565,7 @@ const geojson = window.RDU_GEOJSON;
     document.querySelectorAll('.chapter-card').forEach(card => card.classList.remove('active'));
     updateTimelineStatus();
     applyFilters();
+    window.dispatchEvent(new Event('rdu:reset'));
   });
 
   let timelineFrame;
@@ -647,6 +656,13 @@ const geojson = window.RDU_GEOJSON;
   buildTimelineEvents();
   applyLanguageUI();
   buildMarkers();
+  const construction = window.RDUConstruction?.mount({map, state, applyFilters, renderPinPanel, titleFor, setStoryPanel, openLightbox,
+    resetArchive() {
+      state.activeYear='all'; state.activeChapter=null; state.timelineIndex=null; state.search='';
+      state.enabledLayers=new Set(summary.layers.map(l=>l.name_en||l.name));
+      el.searchInput.value=''; stopTimeline(); renderYearFilters(); renderLayerFilters(); renderChapters(); updateTimelineStatus();
+    }
+  });
   updateExternalLinks();
   const initialPin = state.featureById.get(query.get('pin'));
   if (initialPin) {
